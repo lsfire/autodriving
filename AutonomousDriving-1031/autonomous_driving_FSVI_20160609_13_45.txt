@@ -1,0 +1,515 @@
+#Steps per trials = 162
+Init value function to min
+Min R value = -0.357887 init value = -7.157739999999994
+Begin blind policy computation  3 actions
+Done action 0 after 1 iterations |V| = 1
+Done action 1 after 2 iterations |V| = 1
+Done action 2 after 2 iterations |V| = 1
+Done blind policy
+Starting MDP value iteration
+MDPVI:ComputeV:Starting to compute value function, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 0, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 0 iterations, delta = 0.8197975419093846 min 15 = -1.1776845455169678 max 0 = -0.6978789567947388, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 1, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 1 iterations, delta = 0.5655185286185862 min 15 = -1.701838493347168 max 0 = -1.2017652988433838, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 2, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 2 iterations, delta = 0.5167827664286557 min 15 = -2.183523416519165 max 0 = -1.7172349691390991, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 3, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 3 iterations, delta = 0.48043743061687927 min 15 = -2.623987913131714 max 0 = -2.1976723670959473, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 4, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 4 iterations, delta = 0.4392536857740996 min 15 = -3.0255789756774902 max 0 = -2.6369259357452393, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 5, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 5 iterations, delta = 0.4004493197083354 min 15 = -3.391599416732788 max 0 = -3.0373752117156982, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 6, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 6 iterations, delta = 0.364975645943856 min 15 = -3.7251954078674316 max 0 = -3.402350902557373, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 7, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 7 iterations, delta = 0.3326434948491568 min 15 = -4.029240131378174 max 0 = -3.734994411468506, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 8, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 8 iterations, delta = 0.3031768748271224 min 15 = -4.306352138519287 max 0 = -4.038171291351318, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 9, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 9 iterations, delta = 0.2763206990415803 min 15 = -4.5589165687561035 max 0 = -4.314492225646973, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 10, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 10 iterations, delta = 0.25184338307673837 min 15 = -4.789108753204346 max 0 = -4.566335678100586, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 11, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 11 iterations, delta = 0.2295345497934571 min 15 = -4.9989094734191895 max 0 = -4.795870304107666, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 12, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 12 iterations, delta = 0.20920178587782434 min 15 = -5.190125465393066 max 0 = -5.005072116851807, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 13, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 13 iterations, delta = 0.19067015099227458 min 15 = -5.364403247833252 max 0 = -5.195742130279541, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 14, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 14 iterations, delta = 0.17378030889618312 min 15 = -5.523242950439453 max 0 = -5.369522571563721, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 15, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 15 iterations, delta = 0.1583861200477834 min 15 = -5.6680121421813965 max 0 = -5.527908802032471, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 16, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 16 iterations, delta = 0.14435600256807835 min 15 = -5.799957752227783 max 0 = -5.672264575958252, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 17, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 17 iterations, delta = 0.13156875660286005 min 15 = -5.920214653015137 max 0 = -5.803833484649658, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 18, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 18 iterations, delta = 0.11991382349631774 min 15 = -6.029819488525391 max 0 = -5.923747539520264, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 19, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 19 iterations, delta = 0.10929143468496694 min 15 = -6.1297149658203125 max 0 = -6.033039093017578, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 20, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 20 iterations, delta = 0.09961034764323173 min 15 = -6.220761775970459 max 0 = -6.1326494216918945, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 21, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 21 iterations, delta = 0.09078653854107799 min 15 = -6.3037428855896 max 0 = -6.223435878753662, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 22, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 22 iterations, delta = 0.08274465653257224 min 15 = -6.379373550415039 max 0 = -6.306180477142334, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 23, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 23 iterations, delta = 0.07541477990436452 min 15 = -6.448304653167725 max 0 = -6.381595134735107, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 24, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 24 iterations, delta = 0.06873452587938456 min 15 = -6.511129856109619 max 0 = -6.450329780578613, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 25, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 25 iterations, delta = 0.06264549290778643 min 15 = -6.568389892578125 max 0 = -6.512975215911865, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 26, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 26 iterations, delta = 0.057096429612586874 min 15 = -6.620577335357666 max 0 = -6.570071697235107, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 27, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 27 iterations, delta = 0.05203851265366044 min 15 = -6.668141841888428 max 0 = -6.622110366821289, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 28, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 28 iterations, delta = 0.04742879851398385 min 15 = -6.711493492126465 max 0 = -6.669538974761963, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 29, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 29 iterations, delta = 0.04322770093238404 min 15 = -6.751004219055176 max 0 = -6.712766647338867, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 30, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 30 iterations, delta = 0.039398297378682834 min 15 = -6.787015438079834 max 0 = -6.752164840698242, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 31, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 31 iterations, delta = 0.03590846698217298 min 15 = -6.819836616516113 max 0 = -6.788073539733887, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 32, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 32 iterations, delta = 0.03272739933192703 min 15 = -6.849750518798828 max 0 = -6.82080078125, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 33, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 33 iterations, delta = 0.02982853382131978 min 15 = -6.877014636993408 max 0 = -6.8506293296813965, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 34, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 34 iterations, delta = 0.02718615687911452 min 15 = -6.9018635749816895 max 0 = -6.8778157234191895, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 35, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 35 iterations, delta = 0.024777658372640232 min 15 = -6.924511432647705 max 0 = -6.902593612670898, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 36, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 36 iterations, delta = 0.022582876766371385 min 15 = -6.945152759552002 max 0 = -6.925176620483398, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 37, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 37 iterations, delta = 0.020582362344978122 min 15 = -6.96396541595459 max 0 = -6.945758819580078, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 38, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 38 iterations, delta = 0.018759434895298632 min 15 = -6.981112003326416 max 0 = -6.964518070220947, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 39, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 39 iterations, delta = 0.01709763427638844 min 15 = -6.996739387512207 max 0 = -6.9816155433654785, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 40, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 40 iterations, delta = 0.015583100080655221 min 15 = -7.010982990264893 max 0 = -6.997198581695557, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 41, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 41 iterations, delta = 0.014202593952202136 min 15 = -7.0239644050598145 max 0 = -7.011401176452637, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 42, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 42 iterations, delta = 0.012944501551007015 min 15 = -7.035796165466309 max 0 = -7.024345874786377, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 43, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 43 iterations, delta = 0.011797806360791974 min 15 = -7.046579837799072 max 0 = -7.036143779754639, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 44, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 44 iterations, delta = 0.01075264566645373 min 15 = -7.056407928466797 max 0 = -7.046896457672119, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 45, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 45 iterations, delta = 0.009800268937705248 min 15 = -7.065365791320801 max 0 = -7.056696891784668, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 46, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 46 iterations, delta = 0.008931936515427452 min 15 = -7.0735297203063965 max 0 = -7.065629005432129, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 47, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 47 iterations, delta = 0.008140727221727317 min 15 = -7.080970764160156 max 0 = -7.073769569396973, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 48, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 48 iterations, delta = 0.007419790712092755 min 15 = -7.087752819061279 max 0 = -7.081189155578613, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 49, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 49 iterations, delta = 0.006762685879563968 min 15 = -7.093933582305908 max 0 = -7.08795166015625, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 50, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 50 iterations, delta = 0.006163585887001055 min 15 = -7.099567413330078 max 0 = -7.094115257263184, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 51, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 51 iterations, delta = 0.0056175053450813195 min 15 = -7.104701995849609 max 0 = -7.099732875823975, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 52, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 52 iterations, delta = 0.00511972168662389 min 15 = -7.109381675720215 max 0 = -7.104852676391602, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 53, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 53 iterations, delta = 0.0046663116287462 min 15 = -7.113646984100342 max 0 = -7.109519004821777, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 54, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 54 iterations, delta = 0.004253066561149765 min 15 = -7.117534160614014 max 0 = -7.113771915435791, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 55, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 55 iterations, delta = 0.0038763585868846206 min 15 = -7.121077060699463 max 0 = -7.117648124694824, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 56, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 56 iterations, delta = 0.0035329907325740706 min 15 = -7.1243062019348145 max 0 = -7.121181011199951, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 57, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 57 iterations, delta = 0.0032200326946014712 min 15 = -7.127249240875244 max 0 = -7.124401092529297, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 58, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 58 iterations, delta = 0.0029346740982525432 min 15 = -7.129931449890137 max 0 = -7.127335548400879, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 59, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 59 iterations, delta = 0.0026749064928281996 min 15 = -7.132376670837402 max 0 = -7.130010604858398, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 60, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 60 iterations, delta = 0.002437768774962379 min 15 = -7.1346049308776855 max 0 = -7.132448196411133, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 61, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 61 iterations, delta = 0.0022220070166829586 min 15 = -7.1366353034973145 max 0 = -7.134670257568359, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 62, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 62 iterations, delta = 0.0020249042438500453 min 15 = -7.138486385345459 max 0 = -7.136695384979248, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 63, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 63 iterations, delta = 0.0018455741355660749 min 15 = -7.140173435211182 max 0 = -7.138540744781494, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 64, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 64 iterations, delta = 0.0016822939774971957 min 15 = -7.141711235046387 max 0 = -7.140223026275635, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 65, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 65 iterations, delta = 0.0015332405866619325 min 15 = -7.143112659454346 max 0 = -7.141756057739258, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 66, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 66 iterations, delta = 0.001397537196636378 min 15 = -7.144389629364014 max 0 = -7.143153667449951, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 67, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 67 iterations, delta = 0.0012735320584527088 min 15 = -7.145554065704346 max 0 = -7.144427299499512, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 68, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 68 iterations, delta = 0.001160773857926678 min 15 = -7.1466145515441895 max 0 = -7.145587921142578, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 69, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 69 iterations, delta = 0.001057977487564088 min 15 = -7.147582054138184 max 0 = -7.146646022796631, memory:  total 764 free 653 max 1908
+MDPVI:ComputeV:Start iteration 70, memory:  total 764 free 653 max 1908
+MDPVF:computeValueFunction:After 70 iterations, delta = 9.64274174070745E-4 min 15 = -7.148463249206543 max 0 = -7.147610187530518, memory:  total 764 free 653 max 1908
+MDPVF:VI:MDP value iteration done - iterations 0 delta 9.64274174070745E-4, memory:  total 764 free 653 max 1908
+FSVI:initHeurisitc:Initialization time was 3FSVI:VI:Starting Value Iteration target ADR = 100.00.119318
+Starting at state 3
+Begin improve
+End improve, |V| = 1, delta = 9.776544948714161E-6
+FSVI:VI:FSVI: Iteration 0 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 7 V(b0) -7.16 CPU time 0 CPU total 0 #backups 8 |BS| 322 memory:  total 764 free 640 max 1908Starting at state 10
+Begin improve
+Ended at depth 100. isTerminalState(15)=false
+End improve, |V| = 1, delta = 9.7765457249821E-6
+FSVI:VI:FSVI: Iteration 1 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 0 #backups 109 |BS| 1786 memory:  total 764 free 548 max 1908Starting at state 10
+Begin improve
+Ended at depth 100. isTerminalState(2)=false
+End improve, |V| = 1, delta = 9.77654605627265E-6
+FSVI:VI:FSVI: Iteration 2 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 0 #backups 210 |BS| 2728 memory:  total 764 free 456 max 1908Starting at state 5
+Begin improve
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 3 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 26 V(b0) -7.16 CPU time 0 CPU total 0 #backups 237 |BS| 2755 memory:  total 764 free 443 max 1908Starting at state 0
+Begin improve
+Ended at depth 100. isTerminalState(6)=false
+End improve, |V| = 1, delta = 9.776545878636966E-6
+FSVI:VI:FSVI: Iteration 4 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 0 #backups 338 |BS| 3183 memory:  total 764 free 390 max 1908Starting at state 14
+Begin improve
+Ended at depth 100. isTerminalState(0)=false
+End improve, |V| = 1, delta = 9.77654558464991E-6
+FSVI:VI:FSVI: Iteration 5 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 0 #backups 439 |BS| 3612 memory:  total 764 free 324 max 1908Starting at state 1
+Begin improve
+End improve, |V| = 1, delta = 9.776545881301502E-6
+FSVI:VI:FSVI: Iteration 6 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 48 V(b0) -7.16 CPU time 0 CPU total 0 #backups 488 |BS| 3912 memory:  total 764 free 298 max 1908Starting at state 10
+Begin improve
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 7 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 89 V(b0) -7.16 CPU time 0 CPU total 0 #backups 578 |BS| 4200 memory:  total 764 free 245 max 1908Starting at state 5
+Begin improve
+Ended at depth 100. isTerminalState(1)=false
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 8 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 0 #backups 679 |BS| 4505 memory:  total 764 free 206 max 1908Starting at state 10
+Begin improve
+Ended at depth 100. isTerminalState(12)=false
+End improve, |V| = 1, delta = 9.776545867090647E-6
+FSVI:VI:FSVI: Iteration 9 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 0 #backups 780 |BS| 4885 memory:  total 764 free 153 max 1908Starting at state 13
+Begin improve
+Ended at depth 100. isTerminalState(12)=false
+End improve, |V| = 1, delta = 9.7765460624899E-6
+FSVI:VI:FSVI: Iteration 10 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 0 #backups 881 |BS| 5194 memory:  total 764 free 114 max 1908Starting at state 7
+Begin improve
+Ended at depth 100. isTerminalState(12)=false
+End improve, |V| = 1, delta = 9.77654605627265E-6
+FSVI:VI:FSVI: Iteration 11 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 0 #backups 982 |BS| 5400 memory:  total 764 free 75 max 1908Starting at state 2
+Begin improve
+Ended at depth 100. isTerminalState(14)=false
+End improve, |V| = 1, delta = 9.776546053608115E-6
+FSVI:VI:FSVI: Iteration 12 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 0 #backups 1083 |BS| 5630 memory:  total 761 free 670 max 1908Starting at state 8
+Begin improve
+Ended at depth 100. isTerminalState(0)=false
+End improve, |V| = 1, delta = 9.776545889295107E-6
+FSVI:VI:FSVI: Iteration 13 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 0 #backups 1184 |BS| 5888 memory:  total 761 free 631 max 1908Starting at state 6
+Begin improve
+End improve, |V| = 1, delta = 9.776546042061796E-6
+FSVI:VI:FSVI: Iteration 14 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 64 V(b0) -7.16 CPU time 0 CPU total 0 #backups 1249 |BS| 6180 memory:  total 761 free 591 max 1908Starting at state 3
+Begin improve
+Ended at depth 100. isTerminalState(8)=false
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 15 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 0 #backups 1350 |BS| 6393 memory:  total 761 free 565 max 1908Starting at state 12
+Begin improve
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 16 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 7 V(b0) -7.16 CPU time 0 CPU total 0 #backups 1358 |BS| 6393 memory:  total 761 free 565 max 1908Starting at state 6
+Begin improve
+Ended at depth 100. isTerminalState(2)=false
+End improve, |V| = 1, delta = 9.776545890183286E-6
+FSVI:VI:FSVI: Iteration 17 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 0 #backups 1459 |BS| 6487 memory:  total 761 free 526 max 1908Starting at state 12
+Begin improve
+Ended at depth 100. isTerminalState(0)=false
+End improve, |V| = 1, delta = 9.77654558464991E-6
+FSVI:VI:FSVI: Iteration 18 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 1 #backups 1560 |BS| 6594 memory:  total 761 free 500 max 1908Starting at state 2
+Begin improve
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 19 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 17 V(b0) -7.16 CPU time 0 CPU total 1 #backups 1578 |BS| 6596 memory:  total 761 free 486 max 1908Starting at state 2
+Begin improve
+Ended at depth 100. isTerminalState(10)=false
+End improve, |V| = 1, delta = 9.776545756956523E-6
+FSVI:VI:FSVI: Iteration 20 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 1 #backups 1679 |BS| 6665 memory:  total 761 free 460 max 1908Starting at state 5
+Begin improve
+End improve, |V| = 1, delta = 9.776545580209017E-6
+FSVI:VI:FSVI: Iteration 21 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 11 V(b0) -7.16 CPU time 0 CPU total 1 #backups 1691 |BS| 6665 memory:  total 761 free 460 max 1908Starting at state 2
+Begin improve
+End improve, |V| = 1, delta = 9.776545760509237E-6
+FSVI:VI:FSVI: Iteration 22 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 93 V(b0) -7.16 CPU time 0 CPU total 1 #backups 1785 |BS| 6921 memory:  total 761 free 421 max 1908Starting at state 9
+Begin improve
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 23 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 14 V(b0) -7.16 CPU time 0 CPU total 1 #backups 1800 |BS| 6921 memory:  total 761 free 421 max 1908Starting at state 3
+Begin improve
+Ended at depth 100. isTerminalState(1)=false
+End improve, |V| = 1, delta = 9.776546057160829E-6
+FSVI:VI:FSVI: Iteration 24 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 1 #backups 1901 |BS| 7052 memory:  total 761 free 395 max 1908Starting at state 1
+Begin improve
+End improve, |V| = 1, delta = 9.776546042061796E-6
+FSVI:VI:FSVI: Iteration 25 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 13 V(b0) -7.16 CPU time 0 CPU total 1 #backups 1915 |BS| 7054 memory:  total 761 free 382 max 1908Starting at state 11
+Begin improve
+Ended at depth 100. isTerminalState(4)=false
+End improve, |V| = 1, delta = 9.776545878636966E-6
+FSVI:VI:FSVI: Iteration 26 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 1 #backups 2016 |BS| 7132 memory:  total 761 free 356 max 1908Starting at state 9
+Begin improve
+End improve, |V| = 1, delta = 9.776545880413323E-6
+FSVI:VI:FSVI: Iteration 27 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 66 V(b0) -7.16 CPU time 0 CPU total 1 #backups 2083 |BS| 7273 memory:  total 761 free 329 max 1908Starting at state 11
+Begin improve
+Ended at depth 100. isTerminalState(14)=false
+End improve, |V| = 1, delta = 9.77654558464991E-6
+FSVI:VI:FSVI: Iteration 28 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 1 #backups 2184 |BS| 7385 memory:  total 761 free 303 max 1908Starting at state 0
+Begin improve
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 29 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 44 V(b0) -7.16 CPU time 0 CPU total 1 #backups 2229 |BS| 7418 memory:  total 761 free 290 max 1908Starting at state 2
+Begin improve
+Ended at depth 100. isTerminalState(3)=false
+End improve, |V| = 1, delta = 9.77654605627265E-6
+FSVI:VI:FSVI: Iteration 30 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 1 #backups 2330 |BS| 7528 memory:  total 761 free 251 max 1908Starting at state 0
+Begin improve
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 31 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 44 V(b0) -7.16 CPU time 0 CPU total 1 #backups 2375 |BS| 7595 memory:  total 761 free 238 max 1908Starting at state 10
+Begin improve
+Ended at depth 100. isTerminalState(10)=false
+End improve, |V| = 1, delta = 9.776545888406929E-6
+FSVI:VI:FSVI: Iteration 32 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 1 #backups 2476 |BS| 7755 memory:  total 761 free 211 max 1908Starting at state 14
+Begin improve
+End improve, |V| = 1, delta = 9.776545581985374E-6
+FSVI:VI:FSVI: Iteration 33 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 50 V(b0) -7.16 CPU time 0 CPU total 1 #backups 2527 |BS| 7874 memory:  total 761 free 198 max 1908Starting at state 10
+Begin improve
+End improve, |V| = 1, delta = 9.776546052719937E-6
+FSVI:VI:FSVI: Iteration 34 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 88 V(b0) -7.16 CPU time 0 CPU total 1 #backups 2616 |BS| 7960 memory:  total 761 free 172 max 1908Starting at state 14
+Begin improve
+Ended at depth 100. isTerminalState(12)=false
+End improve, |V| = 1, delta = 9.776545756956523E-6
+FSVI:VI:FSVI: Iteration 35 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 1 #backups 2717 |BS| 8139 memory:  total 761 free 133 max 1908Starting at state 7
+Begin improve
+Ended at depth 100. isTerminalState(3)=false
+End improve, |V| = 1, delta = 9.776546068707148E-6
+FSVI:VI:FSVI: Iteration 36 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 1 #backups 2818 |BS| 8368 memory:  total 761 free 94 max 1908Starting at state 6
+Begin improve
+Ended at depth 100. isTerminalState(3)=false
+End improve, |V| = 1, delta = 9.776545879525145E-6
+FSVI:VI:FSVI: Iteration 37 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 1 #backups 2919 |BS| 8522 memory:  total 761 free 67 max 1908Starting at state 14
+Begin improve
+Ended at depth 100. isTerminalState(11)=false
+End improve, |V| = 1, delta = 9.776546055384472E-6
+FSVI:VI:FSVI: Iteration 38 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 1 #backups 3020 |BS| 8794 memory:  total 761 free 28 max 1908Starting at state 12
+Begin improve
+End improve, |V| = 1, delta = 9.776545890183286E-6
+FSVI:VI:FSVI: Iteration 39 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 44 V(b0) -7.16 CPU time 0 CPU total 1 #backups 3065 |BS| 8866 memory:  total 797 free 757 max 1908Starting at state 0
+Begin improve
+End improve, |V| = 1, delta = 9.776545580209017E-6
+FSVI:VI:FSVI: Iteration 40 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 33 V(b0) -7.16 CPU time 0 CPU total 1 #backups 3099 |BS| 8867 memory:  total 797 free 744 max 1908Starting at state 8
+Begin improve
+Ended at depth 100. isTerminalState(14)=false
+End improve, |V| = 1, delta = 9.776545738304776E-6
+FSVI:VI:FSVI: Iteration 41 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 1 #backups 3200 |BS| 8973 memory:  total 797 free 717 max 1908Starting at state 14
+Begin improve
+Ended at depth 100. isTerminalState(10)=false
+End improve, |V| = 1, delta = 9.776546066042613E-6
+FSVI:VI:FSVI: Iteration 42 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 1 #backups 3301 |BS| 9120 memory:  total 797 free 678 max 1908Starting at state 10
+Begin improve
+End improve, |V| = 1, delta = 9.776545581097196E-6
+FSVI:VI:FSVI: Iteration 43 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 17 V(b0) -7.16 CPU time 0 CPU total 1 #backups 3319 |BS| 9120 memory:  total 797 free 678 max 1908Starting at state 11
+Begin improve
+End improve, |V| = 1, delta = 9.77654605627265E-6
+FSVI:VI:FSVI: Iteration 44 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 96 V(b0) -7.16 CPU time 0 CPU total 1 #backups 3416 |BS| 9225 memory:  total 797 free 652 max 1908Starting at state 1
+Begin improve
+Ended at depth 100. isTerminalState(0)=false
+End improve, |V| = 1, delta = 9.776546041173617E-6
+FSVI:VI:FSVI: Iteration 45 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 1 #backups 3517 |BS| 9399 memory:  total 797 free 613 max 1908Starting at state 10
+Begin improve
+End improve, |V| = 1, delta = 9.7765460624899E-6
+FSVI:VI:FSVI: Iteration 46 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 29 V(b0) -7.16 CPU time 0 CPU total 1 #backups 3547 |BS| 9399 memory:  total 797 free 599 max 1908Starting at state 2
+Begin improve
+End improve, |V| = 1, delta = 9.77654605627265E-6
+FSVI:VI:FSVI: Iteration 47 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 33 V(b0) -7.16 CPU time 0 CPU total 2 #backups 3581 |BS| 9434 memory:  total 797 free 586 max 1908Starting at state 10
+Begin improve
+Ended at depth 100. isTerminalState(14)=false
+End improve, |V| = 1, delta = 9.776546068707148E-6
+FSVI:VI:FSVI: Iteration 48 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 3682 |BS| 9519 memory:  total 797 free 560 max 1908Starting at state 13
+Begin improve
+Ended at depth 100. isTerminalState(9)=false
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 49 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 3783 |BS| 9659 memory:  total 797 free 521 max 1908Starting at state 14
+Begin improve
+Ended at depth 100. isTerminalState(6)=false
+End improve, |V| = 1, delta = 9.776546055384472E-6
+FSVI:VI:FSVI: Iteration 50 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 3884 |BS| 9768 memory:  total 797 free 495 max 1908Starting at state 10
+Begin improve
+Ended at depth 100. isTerminalState(10)=false
+End improve, |V| = 1, delta = 9.776545883077858E-6
+FSVI:VI:FSVI: Iteration 51 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 3985 |BS| 9978 memory:  total 797 free 455 max 1908Starting at state 1
+Begin improve
+Ended at depth 100. isTerminalState(13)=false
+End improve, |V| = 1, delta = 9.77654606160172E-6
+FSVI:VI:FSVI: Iteration 52 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 4086 |BS| 10046 memory:  total 797 free 429 max 1908Starting at state 10
+Begin improve
+Ended at depth 100. isTerminalState(8)=false
+End improve, |V| = 1, delta = 9.776545883077858E-6
+FSVI:VI:FSVI: Iteration 53 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 4187 |BS| 10179 memory:  total 797 free 390 max 1908Starting at state 0
+Begin improve
+Ended at depth 100. isTerminalState(2)=false
+End improve, |V| = 1, delta = 9.77654605627265E-6
+FSVI:VI:FSVI: Iteration 54 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 4288 |BS| 10279 memory:  total 797 free 364 max 1908Starting at state 10
+Begin improve
+Ended at depth 100. isTerminalState(11)=false
+End improve, |V| = 1, delta = 9.77654603939726E-6
+FSVI:VI:FSVI: Iteration 55 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 4389 |BS| 10315 memory:  total 797 free 338 max 1908Starting at state 2
+Begin improve
+End improve, |V| = 1, delta = 9.77654558464991E-6
+FSVI:VI:FSVI: Iteration 56 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 47 V(b0) -7.16 CPU time 0 CPU total 2 #backups 4437 |BS| 10381 memory:  total 797 free 311 max 1908Starting at state 11
+Begin improve
+Ended at depth 100. isTerminalState(0)=false
+End improve, |V| = 1, delta = 9.776545867090647E-6
+FSVI:VI:FSVI: Iteration 57 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 4538 |BS| 10526 memory:  total 797 free 285 max 1908Starting at state 7
+Begin improve
+Ended at depth 100. isTerminalState(12)=false
+End improve, |V| = 1, delta = 9.776546042949974E-6
+FSVI:VI:FSVI: Iteration 58 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 4639 |BS| 10786 memory:  total 797 free 246 max 1908Starting at state 3
+Begin improve
+End improve, |V| = 1, delta = 9.77654558464991E-6
+FSVI:VI:FSVI: Iteration 59 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 6 V(b0) -7.16 CPU time 0 CPU total 2 #backups 4646 |BS| 10786 memory:  total 797 free 246 max 1908Starting at state 9
+Begin improve
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 60 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 58 V(b0) -7.16 CPU time 0 CPU total 2 #backups 4705 |BS| 10818 memory:  total 797 free 233 max 1908Starting at state 0
+Begin improve
+Ended at depth 100. isTerminalState(8)=false
+End improve, |V| = 1, delta = 9.77654558464991E-6
+FSVI:VI:FSVI: Iteration 61 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 4806 |BS| 10988 memory:  total 797 free 207 max 1908Starting at state 9
+Begin improve
+Ended at depth 100. isTerminalState(2)=false
+End improve, |V| = 1, delta = 9.776545867090647E-6
+FSVI:VI:FSVI: Iteration 62 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 4907 |BS| 11109 memory:  total 797 free 167 max 1908Starting at state 2
+Begin improve
+Ended at depth 100. isTerminalState(3)=false
+End improve, |V| = 1, delta = 9.776545740081133E-6
+FSVI:VI:FSVI: Iteration 63 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 5008 |BS| 11241 memory:  total 797 free 141 max 1908Starting at state 2
+Begin improve
+End improve, |V| = 1, delta = 9.77654605627265E-6
+FSVI:VI:FSVI: Iteration 64 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 75 V(b0) -7.16 CPU time 0 CPU total 2 #backups 5084 |BS| 11396 memory:  total 797 free 115 max 1908Starting at state 2
+Begin improve
+Ended at depth 100. isTerminalState(0)=false
+End improve, |V| = 1, delta = 9.776545890183286E-6
+FSVI:VI:FSVI: Iteration 65 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 5185 |BS| 11575 memory:  total 792 free 718 max 1908Starting at state 13
+Begin improve
+End improve, |V| = 1, delta = 9.77654558464991E-6
+FSVI:VI:FSVI: Iteration 66 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 89 V(b0) -7.16 CPU time 0 CPU total 2 #backups 5275 |BS| 11655 memory:  total 792 free 692 max 1908Starting at state 1
+Begin improve
+Ended at depth 100. isTerminalState(7)=false
+End improve, |V| = 1, delta = 9.77654558464991E-6
+FSVI:VI:FSVI: Iteration 67 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 5376 |BS| 11849 memory:  total 792 free 653 max 1908Starting at state 12
+Begin improve
+Ended at depth 100. isTerminalState(2)=false
+End improve, |V| = 1, delta = 9.776545757844701E-6
+FSVI:VI:FSVI: Iteration 68 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 5477 |BS| 11970 memory:  total 792 free 626 max 1908Starting at state 2
+Begin improve
+Ended at depth 100. isTerminalState(1)=false
+End improve, |V| = 1, delta = 9.776546055384472E-6
+FSVI:VI:FSVI: Iteration 69 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 5578 |BS| 12143 memory:  total 792 free 587 max 1908Starting at state 0
+Begin improve
+Ended at depth 100. isTerminalState(10)=false
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 70 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 2 #backups 5679 |BS| 12248 memory:  total 792 free 561 max 1908Starting at state 0
+Begin improve
+Ended at depth 100. isTerminalState(9)=false
+End improve, |V| = 1, delta = 9.77654603939726E-6
+FSVI:VI:FSVI: Iteration 71 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 5780 |BS| 12394 memory:  total 792 free 521 max 1908Starting at state 8
+Begin improve
+End improve, |V| = 1, delta = 9.776546042061796E-6
+FSVI:VI:FSVI: Iteration 72 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 92 V(b0) -7.16 CPU time 0 CPU total 3 #backups 5873 |BS| 12478 memory:  total 792 free 495 max 1908Starting at state 0
+Begin improve
+Ended at depth 100. isTerminalState(3)=false
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 73 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 5974 |BS| 12479 memory:  total 792 free 469 max 1908Starting at state 11
+Begin improve
+Ended at depth 100. isTerminalState(2)=false
+End improve, |V| = 1, delta = 9.776546068707148E-6
+FSVI:VI:FSVI: Iteration 74 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 6075 |BS| 12738 memory:  total 792 free 429 max 1908Starting at state 6
+Begin improve
+End improve, |V| = 1, delta = 9.776544948714161E-6
+FSVI:VI:FSVI: Iteration 75 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 4 V(b0) -7.16 CPU time 0 CPU total 3 #backups 6080 |BS| 12738 memory:  total 792 free 416 max 1908Starting at state 10
+Begin improve
+Ended at depth 100. isTerminalState(0)=false
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 76 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 6181 |BS| 12870 memory:  total 792 free 390 max 1908Starting at state 0
+Begin improve
+Ended at depth 100. isTerminalState(11)=false
+End improve, |V| = 1, delta = 9.776546059825364E-6
+FSVI:VI:FSVI: Iteration 77 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 6282 |BS| 13102 memory:  total 792 free 364 max 1908Starting at state 1
+Begin improve
+Ended at depth 100. isTerminalState(3)=false
+End improve, |V| = 1, delta = 9.77654558464991E-6
+FSVI:VI:FSVI: Iteration 78 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 6383 |BS| 13289 memory:  total 792 free 324 max 1908Starting at state 6
+Begin improve
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 79 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 24 V(b0) -7.16 CPU time 0 CPU total 3 #backups 6408 |BS| 13290 memory:  total 792 free 311 max 1908Starting at state 6
+Begin improve
+Ended at depth 100. isTerminalState(3)=false
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 80 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 6509 |BS| 13406 memory:  total 792 free 285 max 1908Starting at state 2
+Begin improve
+Ended at depth 100. isTerminalState(2)=false
+End improve, |V| = 1, delta = 9.776546042061796E-6
+FSVI:VI:FSVI: Iteration 81 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 6610 |BS| 13446 memory:  total 792 free 258 max 1908Starting at state 3
+Begin improve
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 82 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 50 V(b0) -7.16 CPU time 0 CPU total 3 #backups 6661 |BS| 13495 memory:  total 792 free 232 max 1908Starting at state 8
+Begin improve
+End improve, |V| = 1, delta = 9.776545880413323E-6
+FSVI:VI:FSVI: Iteration 83 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 41 V(b0) -7.16 CPU time 0 CPU total 3 #backups 6703 |BS| 13527 memory:  total 792 free 232 max 1908Starting at state 3
+Begin improve
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 84 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 33 V(b0) -7.16 CPU time 0 CPU total 3 #backups 6737 |BS| 13527 memory:  total 792 free 219 max 1908Starting at state 2
+Begin improve
+Ended at depth 100. isTerminalState(11)=false
+End improve, |V| = 1, delta = 9.77654587686061E-6
+FSVI:VI:FSVI: Iteration 85 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 6838 |BS| 13592 memory:  total 792 free 193 max 1908Starting at state 2
+Begin improve
+Ended at depth 100. isTerminalState(14)=false
+End improve, |V| = 1, delta = 9.776546068707148E-6
+FSVI:VI:FSVI: Iteration 86 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 6939 |BS| 13769 memory:  total 792 free 153 max 1908Starting at state 10
+Begin improve
+End improve, |V| = 1, delta = 9.776545582873553E-6
+FSVI:VI:FSVI: Iteration 87 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 20 V(b0) -7.16 CPU time 0 CPU total 3 #backups 6960 |BS| 13772 memory:  total 792 free 140 max 1908Starting at state 3
+Begin improve
+Ended at depth 100. isTerminalState(2)=false
+End improve, |V| = 1, delta = 9.776546066042613E-6
+FSVI:VI:FSVI: Iteration 88 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 7061 |BS| 13872 memory:  total 792 free 114 max 1908Starting at state 1
+Begin improve
+End improve, |V| = 1, delta = 9.77654145906115E-6
+FSVI:VI:FSVI: Iteration 89 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 2 V(b0) -7.16 CPU time 0 CPU total 3 #backups 7064 |BS| 13872 memory:  total 792 free 114 max 1908Starting at state 10
+Begin improve
+End improve, |V| = 1, delta = 9.776546058937186E-6
+FSVI:VI:FSVI: Iteration 90 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 57 V(b0) -7.16 CPU time 0 CPU total 3 #backups 7122 |BS| 13911 memory:  total 792 free 101 max 1908Starting at state 9
+Begin improve
+Ended at depth 100. isTerminalState(10)=false
+End improve, |V| = 1, delta = 9.776546055384472E-6
+FSVI:VI:FSVI: Iteration 91 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 7223 |BS| 14041 memory:  total 795 free 715 max 1908Starting at state 0
+Begin improve
+End improve, |V| = 1, delta = 9.776545889295107E-6
+FSVI:VI:FSVI: Iteration 92 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 44 V(b0) -7.16 CPU time 0 CPU total 3 #backups 7268 |BS| 14041 memory:  total 795 free 702 max 1908Starting at state 10
+Begin improve
+End improve, |V| = 1, delta = 9.776545581985374E-6
+FSVI:VI:FSVI: Iteration 93 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 21 V(b0) -7.16 CPU time 0 CPU total 3 #backups 7290 |BS| 14085 memory:  total 795 free 702 max 1908Starting at state 15
+Begin improve
+Ended at depth 100. isTerminalState(13)=false
+End improve, |V| = 1, delta = 9.77654605627265E-6
+FSVI:VI:FSVI: Iteration 94 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 7391 |BS| 14215 memory:  total 795 free 662 max 1908Starting at state 14
+Begin improve
+Ended at depth 100. isTerminalState(1)=false
+End improve, |V| = 1, delta = 9.776545886630572E-6
+FSVI:VI:FSVI: Iteration 95 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 7492 |BS| 14356 memory:  total 795 free 636 max 1908Starting at state 14
+Begin improve
+End improve, |V| = 1, delta = 9.776545581985374E-6
+FSVI:VI:FSVI: Iteration 96 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 26 V(b0) -7.16 CPU time 0 CPU total 3 #backups 7519 |BS| 14357 memory:  total 795 free 623 max 1908Starting at state 10
+Begin improve
+Ended at depth 100. isTerminalState(14)=false
+End improve, |V| = 1, delta = 9.77654558464991E-6
+FSVI:VI:FSVI: Iteration 97 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 7620 |BS| 14519 memory:  total 795 free 597 max 1908Starting at state 3
+Begin improve
+End improve, |V| = 1, delta = 9.776545763173772E-6
+FSVI:VI:FSVI: Iteration 98 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 31 V(b0) -7.16 CPU time 0 CPU total 3 #backups 7652 |BS| 14616 memory:  total 795 free 583 max 1908Starting at state 11
+Begin improve
+Ended at depth 100. isTerminalState(4)=false
+End improve, |V| = 1, delta = 9.776546042061796E-6
+FSVI:VI:FSVI: Iteration 99 |Vn| = 1 time 0 V changes 1 max delta 0.0 depth 100 V(b0) -7.16 CPU time 0 CPU total 3 #backups 7753 |BS| 14681 memory:  total 795 free 557 max 1908FSVI:VI:Finished Value Iteration - time : 3 |V| = 1 backups = 7753 GComputations = 2125024 Dot products = 1031411java.util.NoSuchElementException

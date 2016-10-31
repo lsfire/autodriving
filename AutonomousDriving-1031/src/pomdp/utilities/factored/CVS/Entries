@@ -1,0 +1,20 @@
+/AffineADD.java/1.1/Wed Feb  4 19:16:18 2009//
+/AlgebraicDecisionDiagram.java/1.1/Wed Feb  4 19:16:18 2009//
+/AlgebraicDecisionDiagramValue.java/1.1/Wed Feb  4 19:16:18 2009//
+/AlgebraicDecisionDiagramVertex.java/1.1/Wed Feb  4 19:16:18 2009//
+/CompactAlgebraicDecisionDiagram.java/1.1/Wed Feb  4 19:16:18 2009//
+/FactoredAlphaVector.java/1.1/Wed Feb  4 19:16:18 2009//
+/FactoredBeliefState.java/1.1/Wed Feb  4 19:16:18 2009//
+/FactoredBeliefStateComparator.java/1.1/Wed Feb  4 19:16:18 2009//
+/FactoredBeliefStateFactory.java/1.1/Wed Mar 25 21:06:15 2009//
+/IndepandantBeliefState.java/1.2/Mon Dec 14 17:55:57 2009//
+/IndependenBeliefStateFactory.java/1.2/Mon Dec 14 17:56:46 2009//
+/LogisticsBeliefState.java/1.1/Tue Mar 31 20:55:16 2009//
+/LogisticsBeliefStateFactory.java/1.1/Wed Feb  4 19:16:18 2009//
+/ModifiedRockSampleBeliefState.java/1.1/Wed Feb  4 19:16:18 2009//
+/ModifiedRockSampleBeliefStateFactory.java/1.1/Wed Feb  4 19:16:18 2009//
+/NetworkBeliefState.java/1.1/Wed Feb  4 19:16:18 2009//
+/NetworkBeliefStateComparator.java/1.1/Wed Feb  4 19:16:18 2009//
+/NetworkBeliefStateFactory.java/1.1/Wed Mar 25 21:06:15 2009//
+/PathProbabilityEstimator.java/1.1/Wed Feb  4 19:16:18 2009//
+D/affine////

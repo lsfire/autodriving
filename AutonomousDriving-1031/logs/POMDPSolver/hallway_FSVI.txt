@@ -1,0 +1,9 @@
+Started loading model Models/hallway.POMDP
+|S| = 61|A| = 5|O| = 21
+.Done loading model
+
+max is 1.0 min is 0.0
+0.017865
+	Avg. steps per trial 65
+
+POMDP:computeAverageDiscountedReward:After 2 tests. ADR 0.199, stdev 0.14044 SE 0.19861 time 0

@@ -1,0 +1,6 @@
+Started loading model Models/autonomous_driving.POMDP
+|S| = 61|A| = 5|O| = 21
+Model file corrupted - needed to fix some transition values
+Done loading model
+
+max is 1.0 min is 0.0

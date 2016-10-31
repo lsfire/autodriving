@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_cUCVIGaeEeKDVeEnBfxn4A">
+  <name xsi:nil="true"/>
+  <elementImport xmi:id="_ckKb0GaeEeKDVeEnBfxn4A">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+  </elementImport>
+  <elementImport xmi:id="_ckUM0GaeEeKDVeEnBfxn4A">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+  </elementImport>
+  <elementImport xmi:id="_coJj8GaeEeKDVeEnBfxn4A">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_cpaIMGaeEeKDVeEnBfxn4A">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_caF50GaeEeKDVeEnBfxn4A" name="pomdp">
+    <packagedElement xmi:type="uml:Package" xmi:id="_carvsGaeEeKDVeEnBfxn4A" name="algorithms">
+      <packagedElement xmi:type="uml:Package" xmi:id="_catk4GaeEeKDVeEnBfxn4A" name="beliefcollection">
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbDjIGaeEeKDVeEnBfxn4A" name="FSVICollection">
+          <generalization xmi:id="_cgRaUGaeEeKDVeEnBfxn4A" general="_cbwtwGaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_ckM4EGaeEeKDVeEnBfxn4A" name="depth" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_ckM4EWaeEeKDVeEnBfxn4A"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ckRwkGaeEeKDVeEnBfxn4A" name="defaultMaxDepth" visibility="package" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_ckRwkWaeEeKDVeEnBfxn4A" value="200"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ckWCAGaeEeKDVeEnBfxn4A" name="PICK_MDP_ACTION" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_ckWCAWaeEeKDVeEnBfxn4A"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ckcvsGaeEeKDVeEnBfxn4A" name="exploredBeliefs" visibility="package" type="_ckaTcGaeEeKDVeEnBfxn4A"/>
+          <ownedOperation xmi:id="_ckwRsGaeEeKDVeEnBfxn4A" name="initialBelief" visibility="public">
+            <ownedParameter xmi:id="_ckwRsWaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ckzVAGaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_ckzVAWaeEeKDVeEnBfxn4A" name="numNewBeliefs">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ckzVAmaeEeKDVeEnBfxn4A" name="vBeliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_ckzVA2aeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ck1xQGaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_ck1xQWaeEeKDVeEnBfxn4A" name="vBeliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_ck1xQmaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ck5boGaeEeKDVeEnBfxn4A" name="forwardSearch" visibility="protected">
+            <ownedParameter xmi:id="_ck5boWaeEeKDVeEnBfxn4A" name="iState">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ck5bomaeEeKDVeEnBfxn4A" name="bsCurrent" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_ck5bo2aeEeKDVeEnBfxn4A" name="iDepth">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ck5bpGaeEeKDVeEnBfxn4A" name="maxDepth">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ck5bpWaeEeKDVeEnBfxn4A" name="cMaxBeliefs">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ck5bpmaeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ck8e8GaeEeKDVeEnBfxn4A" name="getAction" visibility="private">
+            <ownedParameter xmi:id="_ck8e8WaeEeKDVeEnBfxn4A" name="iState">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ck8e8maeEeKDVeEnBfxn4A" name="bs" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_ck8e82aeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ck_iQGaeEeKDVeEnBfxn4A" name="getObservation" visibility="private">
+            <ownedParameter xmi:id="_ck_iQWaeEeKDVeEnBfxn4A" name="iStartState">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ck_iQmaeEeKDVeEnBfxn4A" name="iAction">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ck_iQ2aeEeKDVeEnBfxn4A" name="iEndState">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ck_iRGaeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_clClkGaeEeKDVeEnBfxn4A" name="selectNextState" visibility="private">
+            <ownedParameter xmi:id="_clClkWaeEeKDVeEnBfxn4A" name="iState">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_clClkmaeEeKDVeEnBfxn4A" name="iAction">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_clClk2aeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbJpwGaeEeKDVeEnBfxn4A" name="HSVICollection">
+          <generalization xmi:id="_clEawGaeEeKDVeEnBfxn4A" general="_cbwtwGaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_clIFIGaeEeKDVeEnBfxn4A" name="m_vfUpperBound" visibility="protected" type="_cffXMWaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_clcOMGaeEeKDVeEnBfxn4A" name="m_dMaxWidthForIteration" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_clgfoGaeEeKDVeEnBfxn4A" name="exploredBeliefs" visibility="package" type="_ckaTcGaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_cll_MGaeEeKDVeEnBfxn4A" name="previousBeliefs" visibility="package" type="_ckaTcGaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_clqQoGaeEeKDVeEnBfxn4A" name="defaultNumBeliefPoints" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_clqQoWaeEeKDVeEnBfxn4A" value="200"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_cltT8GaeEeKDVeEnBfxn4A" name="initialBelief" visibility="public">
+            <ownedParameter xmi:id="_cltT8WaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_clwXQGaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_clw-UGaeEeKDVeEnBfxn4A" name="numNewBeliefs">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_clw-UWaeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_clw-UmaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cl0osGaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_cl0osWaeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cl0osmaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cl4TEGaeEeKDVeEnBfxn4A" name="explore" visibility="protected">
+            <ownedParameter xmi:id="_cl4TEWaeEeKDVeEnBfxn4A" name="bsCurrent" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cl4TEmaeEeKDVeEnBfxn4A" name="dEpsilon">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cl4TE2aeEeKDVeEnBfxn4A" name="t">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cl4TFGaeEeKDVeEnBfxn4A" name="dDiscount">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cl4TFWaeEeKDVeEnBfxn4A" name="maxSteps">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cl4TFmaeEeKDVeEnBfxn4A" name="cMaxBeliefs">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cl4TF2aeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cl8kgGaeEeKDVeEnBfxn4A" name="getNextBeliefState" visibility="protected">
+            <ownedParameter xmi:id="_cl8kgWaeEeKDVeEnBfxn4A" name="bsCurrent" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cl8kgmaeEeKDVeEnBfxn4A" name="dEpsilon">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cl8kg2aeEeKDVeEnBfxn4A" name="dDiscount">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cl8khGaeEeKDVeEnBfxn4A" name="return" type="_cfeJEGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cmAO4GaeEeKDVeEnBfxn4A" name="excess" visibility="protected">
+            <ownedParameter xmi:id="_cmAO4WaeEeKDVeEnBfxn4A" name="bsCurrent" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cmAO4maeEeKDVeEnBfxn4A" name="dEpsilon">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cmAO42aeEeKDVeEnBfxn4A" name="dDiscount">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cmAO5GaeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cmDSMGaeEeKDVeEnBfxn4A" name="width" visibility="protected">
+            <ownedParameter xmi:id="_cmDSMWaeEeKDVeEnBfxn4A" name="bsCurrent" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cmDSMmaeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cmHjoGaeEeKDVeEnBfxn4A" name="getExplorationObservation" visibility="protected">
+            <ownedParameter xmi:id="_cmHjoWaeEeKDVeEnBfxn4A" name="bsCurrent" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cmHjomaeEeKDVeEnBfxn4A" name="iAction">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cmHjo2aeEeKDVeEnBfxn4A" name="dEpsilon">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cmHjpGaeEeKDVeEnBfxn4A" name="dDiscount">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cmHjpWaeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbMtEGaeEeKDVeEnBfxn4A" name="RandomCollection">
+          <generalization xmi:id="_cmJ_4GaeEeKDVeEnBfxn4A" general="_cbwtwGaeEeKDVeEnBfxn4A"/>
+          <ownedOperation xmi:id="_cmKm8GaeEeKDVeEnBfxn4A" name="initialBelief" visibility="public">
+            <ownedParameter xmi:id="_cmKm8WaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cmL1EGaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_cmL1EWaeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cmL1EmaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cmORUGaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_cmORUWaeEeKDVeEnBfxn4A" name="numNewBelief">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cmORUmaeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cmORU2aeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbN7MGaeEeKDVeEnBfxn4A" name="PEMACollection">
+          <generalization xmi:id="_cmPfcGaeEeKDVeEnBfxn4A" general="_cbwtwGaeEeKDVeEnBfxn4A"/>
+          <ownedOperation xmi:id="_cmPfcWaeEeKDVeEnBfxn4A" name="initialBelief" visibility="public">
+            <ownedParameter xmi:id="_cmPfcmaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cmSiwGaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_cmSiwWaeEeKDVeEnBfxn4A" name="numNewBeliefs">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cmSiwmaeEeKDVeEnBfxn4A" name="vBeliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cmSiw2aeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cmWNIGaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_cmWNIWaeEeKDVeEnBfxn4A" name="vBeliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cmWNImaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cmZQcGaeEeKDVeEnBfxn4A" name="PEMAWeightedErrorBound" visibility="private">
+            <ownedComment xmi:id="_cmc60GaeEeKDVeEnBfxn4A">
+              <body>/** 
+ * Compute the error bound, Eq. (7) in PEMA paper
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_cmZQcWaeEeKDVeEnBfxn4A" name="vBeliefPoints" type="_cff-QWaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cmZQcmaeEeKDVeEnBfxn4A" name="bs" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cmZQc2aeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cmdh4GaeEeKDVeEnBfxn4A" name="getPEMADescendant" visibility="private">
+            <ownedComment xmi:id="_cmglMGaeEeKDVeEnBfxn4A">
+              <body>/** 
+ * get the descendant belief that has the largest impact on the error of the current belief.
+ * @param vBeliefPoints is the current set of belief points
+ * @param bs is the current belief
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_cmeI8GaeEeKDVeEnBfxn4A" name="vBeliefPoints" type="_cff-QWaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cmeI8WaeEeKDVeEnBfxn4A" name="bs" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cmeI8maeEeKDVeEnBfxn4A" name="return" type="_cfeJEGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cmhMQGaeEeKDVeEnBfxn4A" name="PEMAErrorBound" visibility="private">
+            <ownedComment xmi:id="_cmjogGaeEeKDVeEnBfxn4A">
+              <body>/** 
+ * The error for a belief point, as in PEMA, the last equation in 2.4 
+ * @param vBeliefPoints current set of belief points
+ * @param bprime the belief we are looking at
+ * @return the error
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_cmhMQWaeEeKDVeEnBfxn4A" name="vBeliefPoints" type="_cff-QWaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cmhMQmaeEeKDVeEnBfxn4A" name="bprime" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cmhMQ2aeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbRlkGaeEeKDVeEnBfxn4A" name="GapMinCollection">
+          <generalization xmi:id="_cmkPkGaeEeKDVeEnBfxn4A" general="_cbwtwGaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_cm0uQGaeEeKDVeEnBfxn4A" name="m_vfUpperBound" visibility="protected" type="_cffXMWaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_cm7b8GaeEeKDVeEnBfxn4A" name="m_dMaxWidthForIteration" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_cnBikGaeEeKDVeEnBfxn4A" name="exploredBeliefs" visibility="package" type="_ckaTcGaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_cnHpMGaeEeKDVeEnBfxn4A" name="previousBeliefs" visibility="package" type="_ckaTcGaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_cnNv0GaeEeKDVeEnBfxn4A" name="defaultNumBeliefPoints" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_cnNv0WaeEeKDVeEnBfxn4A" value="200"/>
+          </ownedAttribute>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_cbV3AGaeEeKDVeEnBfxn4A" name="PriorityQueueElement" visibility="private">
+            <ownedAttribute xmi:id="_cnp0sGaeEeKDVeEnBfxn4A" name="m_bsBelief" visibility="public" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedAttribute xmi:id="_cnv7UGaeEeKDVeEnBfxn4A" name="m_dScore" visibility="public">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_cn2B8GaeEeKDVeEnBfxn4A" name="m_dProb" visibility="public">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_coGgoGaeEeKDVeEnBfxn4A" name="m_iDepth" visibility="public">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_coMnQGaeEeKDVeEnBfxn4A" name="m_sHistory" visibility="public">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_coQRoGaeEeKDVeEnBfxn4A" name="compareTo" visibility="public">
+              <ownedParameter xmi:id="_coQRoWaeEeKDVeEnBfxn4A" name="eOther" type="_coPqkGaeEeKDVeEnBfxn4A"/>
+              <ownedParameter xmi:id="_coQRomaeEeKDVeEnBfxn4A" name="return" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+          </nestedClassifier>
+          <ownedOperation xmi:id="_cnQzIGaeEeKDVeEnBfxn4A" name="initialBelief" visibility="public">
+            <ownedParameter xmi:id="_cnQzIWaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cnUdgGaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_cnUdgWaeEeKDVeEnBfxn4A" name="numNewBeliefs">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cnUdgmaeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cnUdg2aeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cnYH4GaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_cnYH4WaeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cnYH4maeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cnbyQGaeEeKDVeEnBfxn4A" name="explore" visibility="protected">
+            <ownedParameter xmi:id="_cnbyQWaeEeKDVeEnBfxn4A" name="pq" type="_cfhMYGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cnbyQmaeEeKDVeEnBfxn4A" name="dEpsilon">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cnbyQ2aeEeKDVeEnBfxn4A" name="cMaxBeliefs">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cnfcoGaeEeKDVeEnBfxn4A" name="getLowerBoundUpdateValue" visibility="private">
+            <ownedParameter xmi:id="_cnfcoWaeEeKDVeEnBfxn4A" name="bs" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cnfcomaeEeKDVeEnBfxn4A" name="iAction">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cnfco2aeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cnjHAGaeEeKDVeEnBfxn4A" name="width" visibility="protected">
+            <ownedParameter xmi:id="_cnjHAWaeEeKDVeEnBfxn4A" name="bsCurrent" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cnjHAmaeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbmVsGaeEeKDVeEnBfxn4A" name="SARSOPCollection">
+          <generalization xmi:id="_coTU8GaeEeKDVeEnBfxn4A" general="_cbwtwGaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_coWYQGaeEeKDVeEnBfxn4A" name="m_vfUpperBound" visibility="protected" type="_cffXMWaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_coce4GaeEeKDVeEnBfxn4A" name="defaultNumBeliefPoints" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_coce4WaeEeKDVeEnBfxn4A" value="200"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_coilgGaeEeKDVeEnBfxn4A" name="exploredBeliefs" visibility="package" type="_ckaTcGaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_coosIGaeEeKDVeEnBfxn4A" name="previousBeliefs" visibility="package" type="_ckaTcGaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_couywGaeEeKDVeEnBfxn4A" name="bm" visibility="package" type="_cfiagGaeEeKDVeEnBfxn4A"/>
+          <ownedOperation xmi:id="_cox2EGaeEeKDVeEnBfxn4A" name="initialBelief" visibility="public">
+            <ownedParameter xmi:id="_cox2EWaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_co1gcGaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_co1gcWaeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_co1gcmaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_co4jwGaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_co4jwWaeEeKDVeEnBfxn4A" name="numNewBeliefs">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_co4jwmaeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_co4jw2aeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_co81MGaeEeKDVeEnBfxn4A" name="explore" visibility="protected">
+            <ownedParameter xmi:id="_co81MWaeEeKDVeEnBfxn4A" name="bsCurrent" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_co81MmaeEeKDVeEnBfxn4A" name="dEpsilon">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_co81M2aeEeKDVeEnBfxn4A" name="t">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_co81NGaeEeKDVeEnBfxn4A" name="dDiscount">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_co81NWaeEeKDVeEnBfxn4A" name="maxSteps">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_co81NmaeEeKDVeEnBfxn4A" name="L">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_co81N2aeEeKDVeEnBfxn4A" name="U">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_co81OGaeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cpBGoGaeEeKDVeEnBfxn4A" name="getExplorationObservation" visibility="protected">
+            <ownedParameter xmi:id="_cpBGoWaeEeKDVeEnBfxn4A" name="bsCurrent" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cpBGomaeEeKDVeEnBfxn4A" name="iAction">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cpBGo2aeEeKDVeEnBfxn4A" name="dEpsilon">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cpBGpGaeEeKDVeEnBfxn4A" name="dDiscount">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cpBGpWaeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cpLesGaeEeKDVeEnBfxn4A" name="excess" visibility="protected">
+            <ownedParameter xmi:id="_cpLesWaeEeKDVeEnBfxn4A" name="bsCurrent" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cpLesmaeEeKDVeEnBfxn4A" name="dEpsilon">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cpLes2aeEeKDVeEnBfxn4A" name="dDiscount">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cpLetGaeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cpOiAGaeEeKDVeEnBfxn4A" name="width" visibility="protected">
+            <ownedParameter xmi:id="_cpOiAWaeEeKDVeEnBfxn4A" name="bsCurrent" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cpOiAmaeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cpSzcGaeEeKDVeEnBfxn4A" name="getFutureValue" visibility="private">
+            <ownedParameter xmi:id="_cpSzcWaeEeKDVeEnBfxn4A" name="bsCurrent" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cpSzcmaeEeKDVeEnBfxn4A" name="action">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cpSzc2aeEeKDVeEnBfxn4A" name="observation">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cpSzdGaeEeKDVeEnBfxn4A" name="type">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cpSzdWaeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cpWd0GaeEeKDVeEnBfxn4A" name="getFullFutureValue" visibility="private">
+            <ownedParameter xmi:id="_cpWd0WaeEeKDVeEnBfxn4A" name="bsCurrent" type="_cfeJEGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cpWd0maeEeKDVeEnBfxn4A" name="action">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cpWd02aeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbrOMGaeEeKDVeEnBfxn4A" name="BeliefCollectionFactory">
+          <ownedOperation xmi:id="_cpavQGaeEeKDVeEnBfxn4A" name="getBeliefCollectionAlgorithm" visibility="public" isStatic="true">
+            <ownedParameter xmi:id="_cpavQWaeEeKDVeEnBfxn4A" name="sName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cpavQmaeEeKDVeEnBfxn4A" name="vi" type="_cfdiAWaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cpavQ2aeEeKDVeEnBfxn4A" name="bAllowDuplicates">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cpavRGaeEeKDVeEnBfxn4A" name="bUseFIB">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cpavRWaeEeKDVeEnBfxn4A" name="return" type="_cbwtwGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbscUGaeEeKDVeEnBfxn4A" name="PBVICollection">
+          <generalization xmi:id="_cpbWUGaeEeKDVeEnBfxn4A" general="_cbwtwGaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_cpdLgGaeEeKDVeEnBfxn4A" name="fullSuccessors" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_cpeZoGaeEeKDVeEnBfxn4A" name="initialBelief" visibility="public">
+            <ownedParameter xmi:id="_cpeZoWaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cpg14GaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_cpg14WaeEeKDVeEnBfxn4A" name="numNewBeliefs">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cpg14maeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cpg142aeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cpirEGaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_cpirEWaeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cpirEmaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbuRgGaeEeKDVeEnBfxn4A" name="PBVILeafCollection">
+          <generalization xmi:id="_cpj5MGaeEeKDVeEnBfxn4A" general="_cbwtwGaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_cplHUGaeEeKDVeEnBfxn4A" name="leafs" visibility="public" type="_ckaTcGaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_cpoKoGaeEeKDVeEnBfxn4A" name="fullSuccessors" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_cpp_0GaeEeKDVeEnBfxn4A" name="initialBelief" visibility="public">
+            <ownedParameter xmi:id="_cpp_0WaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cpr1AGaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_cpr1AWaeEeKDVeEnBfxn4A" name="numNewBeliefs">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cpr1AmaeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cpr1A2aeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cptqMGaeEeKDVeEnBfxn4A" name="expand" visibility="public">
+            <ownedParameter xmi:id="_cptqMWaeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cptqMmaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbwtwGaeEeKDVeEnBfxn4A" name="BeliefCollection" isAbstract="true">
+          <ownedAttribute xmi:id="_cpwGcGaeEeKDVeEnBfxn4A" name="POMDP" visibility="package" type="_cfld0GaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_cpyisGaeEeKDVeEnBfxn4A" name="valueIteration" visibility="public" type="_cfdiAWaeEeKDVeEnBfxn4A"/>
+          <ownedAttribute xmi:id="_cp0X4GaeEeKDVeEnBfxn4A" name="epsilon" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_cp2NEGaeEeKDVeEnBfxn4A" name="m_bAllowDuplicates" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_cp3bMGaeEeKDVeEnBfxn4A" name="toString" visibility="public">
+            <ownedParameter xmi:id="_cp3bMWaeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cp4pUGaeEeKDVeEnBfxn4A" name="removeDuplicates" visibility="public">
+            <ownedParameter xmi:id="_cp4pUWaeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cp6egGaeEeKDVeEnBfxn4A" name="expand" visibility="public" isAbstract="true">
+            <ownedParameter xmi:id="_cp6egWaeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cp6egmaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cp7soGaeEeKDVeEnBfxn4A" name="expand" visibility="public" isAbstract="true">
+            <ownedParameter xmi:id="_cp7soWaeEeKDVeEnBfxn4A" name="numNewBeliefs">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cp7somaeEeKDVeEnBfxn4A" name="beliefPoints" type="_cfdiAGaeEeKDVeEnBfxn4A"/>
+            <ownedParameter xmi:id="_cp7so2aeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cp86wGaeEeKDVeEnBfxn4A" name="initialBelief" visibility="public" isAbstract="true">
+            <ownedParameter xmi:id="_cp86wWaeEeKDVeEnBfxn4A" name="return" type="_cfdiAGaeEeKDVeEnBfxn4A" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cp-I4GaeEeKDVeEnBfxn4A" name="allowDuplicates" visibility="public">
+            <ownedParameter xmi:id="_cp-I4WaeEeKDVeEnBfxn4A" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cfdiAWaeEeKDVeEnBfxn4A" name="ValueIteration"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cfdiAmaeEeKDVeEnBfxn4A" name="utilities">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cfeJEGaeEeKDVeEnBfxn4A" name="BeliefState"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cfeJEWaeEeKDVeEnBfxn4A" name="ExecutionProperties"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cfeJEmaeEeKDVeEnBfxn4A" name="Logger"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cfglUGaeEeKDVeEnBfxn4A" name="AlphaVector"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cfhzcGaeEeKDVeEnBfxn4A" name="Pair"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cfiagGaeEeKDVeEnBfxn4A" name="BinManager"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cffXMGaeEeKDVeEnBfxn4A" name="valuefunction">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cffXMWaeEeKDVeEnBfxn4A" name="JigSawValueFunction"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_cff-QGaeEeKDVeEnBfxn4A" name="CreateBeliefSpaces"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cfk2wWaeEeKDVeEnBfxn4A" name="environments">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cfld0GaeEeKDVeEnBfxn4A" name="POMDP"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_cfZQkGaeEeKDVeEnBfxn4A" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_cfZ3oGaeEeKDVeEnBfxn4A" name="util">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cfc68GaeEeKDVeEnBfxn4A" name="Collections"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cfdiAGaeEeKDVeEnBfxn4A" name="Vector"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cff-QWaeEeKDVeEnBfxn4A" name="Collection"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cfhMYGaeEeKDVeEnBfxn4A" name="PriorityQueue"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cfjBkGaeEeKDVeEnBfxn4A" name="Iterator"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_cfjooGaeEeKDVeEnBfxn4A" name="Map">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_cfjooWaeEeKDVeEnBfxn4A" name="Entry"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_cfk2wGaeEeKDVeEnBfxn4A" name="LinkedHashSet"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_ckaTcGaeEeKDVeEnBfxn4A" name="Vector&lt;BeliefState>"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_coPqkGaeEeKDVeEnBfxn4A" name="PriorityQueueElement"/>
+</uml:Model>

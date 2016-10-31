@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_c6EaYGaeEeKDVeEnBfxn4A" activeDiagram="_c6XVUGaeEeKDVeEnBfxn4A">
+  <model href="beliefcollection.uml#_cUCVIGaeEeKDVeEnBfxn4A"/>
+  <diagrams xmi:id="_c6XVUGaeEeKDVeEnBfxn4A" position="0,0" size="100,100" name="beliefcollection" viewport="245,68">
+    <property xmi:id="_dnN0QGaeEeKDVeEnBfxn4A" key="pageFormatName" value=""/>
+    <property xmi:id="_dnN0QWaeEeKDVeEnBfxn4A" key="diagramWidth" value="4866"/>
+    <property xmi:id="_dnN0QmaeEeKDVeEnBfxn4A" key="diagramHeight" value="1274"/>
+    <property xmi:id="_dnN0Q2aeEeKDVeEnBfxn4A" key="pageMarginName" value="A4"/>
+    <property xmi:id="_dnN0RGaeEeKDVeEnBfxn4A" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_dnN0RWaeEeKDVeEnBfxn4A" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_dnN0RmaeEeKDVeEnBfxn4A" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_dnN0R2aeEeKDVeEnBfxn4A" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_dnN0SGaeEeKDVeEnBfxn4A" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_c6X8YGaeEeKDVeEnBfxn4A" presentation="org.topcased.modeler.uml.classdiagram">
+      <element href="beliefcollection.uml#_cUCVIGaeEeKDVeEnBfxn4A"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_d5EZQGaeEeKDVeEnBfxn4A" position="35,34" size="4756,1165">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d5EZQWaeEeKDVeEnBfxn4A" presentation="default">
+        <element href="beliefcollection.uml#_caF50GaeEeKDVeEnBfxn4A"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_d6tYAGaeEeKDVeEnBfxn4A" position="15,11" size="4726,1103">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d6tYAWaeEeKDVeEnBfxn4A" presentation="default">
+          <element href="beliefcollection.uml#_carvsGaeEeKDVeEnBfxn4A"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_d62h8GaeEeKDVeEnBfxn4A" position="15,11" size="4696,1041">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d62h8WaeEeKDVeEnBfxn4A" presentation="default">
+            <element href="beliefcollection.uml#_catk4GaeEeKDVeEnBfxn4A"/>
+          </semanticModel>
+          <contained xsi:type="di:GraphNode" xmi:id="_d62h8maeEeKDVeEnBfxn4A" position="406,64" size="824,-1">
+            <anchorage xmi:id="_d_d8MGaeEeKDVeEnBfxn4A" graphEdge="_eAWtAGaeEeKDVeEnBfxn4A"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d62h82aeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cbDjIGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_d62h9GaeEeKDVeEnBfxn4A">
+              <property xmi:id="_d62h9WaeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="37"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d62h9maeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbDjIGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8MlwGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8MlwWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_ckM4EGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8VvsGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8VvsWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_ckRwkGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8VvsmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8Vvs2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_ckWCAGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8VvtGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8VvtWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_ckcvsGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_d62h92aeEeKDVeEnBfxn4A">
+              <property xmi:id="_d62h-GaeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="47"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d62h-WaeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbDjIGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8VvtmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8Vvt2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_ckwRsGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8fgsGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8fgsWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_ckzVAGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8fgsmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8fgs2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_ck1xQGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8fgtGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8fgtWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_ck5boGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8oqoGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8oqoWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_ck8e8GaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8oqomaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8oqo2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_ck_iQGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8oqpGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8oqpWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_clClkGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_d7Jc4GaeEeKDVeEnBfxn4A" position="1277,116" size="901,-1">
+            <anchorage xmi:id="_eAWtA2aeEeKDVeEnBfxn4A" graphEdge="_eAWtBGaeEeKDVeEnBfxn4A"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7Jc4WaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cbJpwGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7Jc4maeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7Jc42aeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="37"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7Jc5GaeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbJpwGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8yboGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8yboWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_clIFIGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8ybomaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8ybo2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_clcOMGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8ybpGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8ybpWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_clgfoGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8ybpmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8ybp2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cll_MGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d8ybqGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d8ybqWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_clqQoGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7Jc5WaeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7Jc5maeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="47"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7Jc52aeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbJpwGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d88MoGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d88MoWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cltT8GaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d88MomaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d88Mo2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_clwXQGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d88MpGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d88MpWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cl0osGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d88MpmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d88Mp2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cl4TEGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9FWkGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9FWkWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cl8kgGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9FWkmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9FWk2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cmAO4GaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9FWlGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9FWlWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cmDSMGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9FWlmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9FWl2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cmHjoGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_d7TN4GaeEeKDVeEnBfxn4A" position="2233,307" size="460,-1">
+            <anchorage xmi:id="_eAWtB2aeEeKDVeEnBfxn4A" graphEdge="_eAWtCGaeEeKDVeEnBfxn4A"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7TN4WaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cbMtEGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7TN4maeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7TN42aeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="37"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7TN5GaeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbMtEGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7TN5WaeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7TN5maeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="47"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7TN52aeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbMtEGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9PHkGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9PHkWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cmKm8GaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9PHkmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9PHk2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cmL1EGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9PHlGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9PHlWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cmORUGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_d7c-4GaeEeKDVeEnBfxn4A" position="2761,245" size="593,-1">
+            <anchorage xmi:id="_eAgeAGaeEeKDVeEnBfxn4A" graphEdge="_eAgeAWaeEeKDVeEnBfxn4A"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7c-4WaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cbN7MGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7c-4maeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7c-42aeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="37"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7c-5GaeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbN7MGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7c-5WaeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7c-5maeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="47"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7c-52aeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbN7MGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9YRgGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9YRgWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cmPfcWaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9YRgmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9YRg2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cmSiwGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9YRhGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9YRhWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cmWNIGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9YRhmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9YRh2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cmZQcGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9YRiGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9YRiWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cmdh4GaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9iCgGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9iCgWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cmhMQGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_d7c-6GaeEeKDVeEnBfxn4A" position="3430,29" size="516,-1">
+            <anchorage xmi:id="_eAgeBGaeEeKDVeEnBfxn4A" graphEdge="_eAgeBWaeEeKDVeEnBfxn4A"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7c-6WaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cbRlkGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7c-6maeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7c-62aeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="37"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7c-7GaeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbRlkGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9iCgmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9iCg2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cm0uQGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9iChGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9iChWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cm7b8GaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9rzgGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9rzgWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cnBikGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9rzgmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9rzg2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cnHpMGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9rzhGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9rzhWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cnNv0GaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7c-7WaeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7c-7maeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="47"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7c-72aeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbRlkGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9rzhmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9rzh2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cnQzIGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9rziGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9rziWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cnUdgGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d909cGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d909cWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cnYH4GaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d909cmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d909c2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cnbyQGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d909dGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d909dWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cnfcoGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d909dmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d909d2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cnjHAGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_d7mI0GaeEeKDVeEnBfxn4A" position="3745,352" size="936,-1">
+            <anchorage xmi:id="_eAqPAGaeEeKDVeEnBfxn4A" graphEdge="_eAqPAWaeEeKDVeEnBfxn4A"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7mI0WaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cbmVsGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7mI0maeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7mI02aeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="37"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7mI1GaeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbmVsGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9-ucGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9-ucWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_coWYQGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9-ucmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9-uc2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_coce4GaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9-udGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9-udWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_coilgGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d9-udmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d9-ud2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_coosIGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-H4YGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-H4YWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_couywGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7mI1WaeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7mI1maeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="47"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7mI12aeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbmVsGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-H4YmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-H4Y2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cox2EGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-H4ZGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-H4ZWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_co1gcGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-H4ZmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-H4Z2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_co4jwGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-H4aGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-H4aWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_co81MGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-RpYGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-RpYWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpBGoGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-RpYmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-RpY2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpLesGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-RpZGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-RpZWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpOiAGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-RpZmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-RpZ2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpSzcGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-RpaGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-RpaWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpWd0GaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_d7mI2GaeEeKDVeEnBfxn4A" position="43,920" size="971,-1">
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7mI2WaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cbrOMGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7mI2maeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7mI22aeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="37"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7mI3GaeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbrOMGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7mI3WaeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7mI3maeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="47"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7mI32aeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbrOMGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-baYGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-baYWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpavQGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_d7v50GaeEeKDVeEnBfxn4A" position="584,687" size="467,-1">
+            <anchorage xmi:id="_eAqPBGaeEeKDVeEnBfxn4A" graphEdge="_eAqPBWaeEeKDVeEnBfxn4A"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7v50WaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cbscUGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7v50maeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7v502aeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="37"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7v51GaeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbscUGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-baYmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-baY2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpdLgGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7v51WaeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7v51maeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="47"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7v512aeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbscUGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-baZGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-baZWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpeZoGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-kkUGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-kkUWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpg14GaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-kkUmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-kkU2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpirEGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_d7v52GaeEeKDVeEnBfxn4A" position="59,433" size="467,-1">
+            <anchorage xmi:id="_eAqPCGaeEeKDVeEnBfxn4A" graphEdge="_eAzY8GaeEeKDVeEnBfxn4A"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7v52WaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cbuRgGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7v52maeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7v522aeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="37"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7v53GaeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbuRgGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-kkVGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-kkVWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cplHUGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-kkVmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-kkV2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpoKoGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_d7v53WaeEeKDVeEnBfxn4A">
+              <property xmi:id="_d7v53maeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="47"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d7v532aeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbuRgGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-uVUGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-uVUWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpp_0GaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-uVUmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-uVU2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpr1AGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-uVVGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-uVVWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cptqMGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+          </contained>
+          <contained xsi:type="di:GraphNode" xmi:id="_d75DwGaeEeKDVeEnBfxn4A" position="583,388" size="470,-1">
+            <anchorage xmi:id="_d_d8MWaeEeKDVeEnBfxn4A" graphEdge="_eAWtAGaeEeKDVeEnBfxn4A _eAWtBGaeEeKDVeEnBfxn4A _eAWtCGaeEeKDVeEnBfxn4A _eAgeAWaeEeKDVeEnBfxn4A _eAgeBWaeEeKDVeEnBfxn4A _eAqPAWaeEeKDVeEnBfxn4A _eAqPBWaeEeKDVeEnBfxn4A _eAzY8GaeEeKDVeEnBfxn4A"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d75DwWaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cbwtwGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:GraphNode" xmi:id="_d75DwmaeEeKDVeEnBfxn4A">
+              <property xmi:id="_d75Dw2aeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="37"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d75DxGaeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbwtwGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-uVVmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-uVV2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpwGcGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-3fQGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-3fQWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cpyisGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-3fQmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-3fQ2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cp0X4GaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-3fRGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-3fRWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cp2NEGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+            <contained xsi:type="di:GraphNode" xmi:id="_d75DxWaeEeKDVeEnBfxn4A">
+              <property xmi:id="_d75DxmaeEeKDVeEnBfxn4A" key="eStructuralFeatureID" value="47"/>
+              <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d75Dx2aeEeKDVeEnBfxn4A" presentation="default">
+                <element href="beliefcollection.uml#_cbwtwGaeEeKDVeEnBfxn4A"/>
+              </semanticModel>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-3fRmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-3fR2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cp3bMGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d-3fSGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d-3fSWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cp4pUGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d_BQQGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d_BQQWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cp6egGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d_BQQmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d_BQQ2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cp7soGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d_BQRGaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d_BQRWaeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cp86wGaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+              <contained xsi:type="di:GraphNode" xmi:id="_d_BQRmaeEeKDVeEnBfxn4A" position="0,0" size="-1,-1">
+                <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d_BQR2aeEeKDVeEnBfxn4A" presentation="default">
+                  <element href="beliefcollection.uml#_cp-I4GaeEeKDVeEnBfxn4A"/>
+                </semanticModel>
+              </contained>
+            </contained>
+          </contained>
+          <contained xsi:type="di:GraphEdge" xmi:id="_eAWtAGaeEeKDVeEnBfxn4A" anchor="_d_d8MGaeEeKDVeEnBfxn4A _d_d8MWaeEeKDVeEnBfxn4A">
+            <property xmi:id="_eLqlIGaeEeKDVeEnBfxn4A" key="router" value="Automatic"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eAWtAWaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cgRaUGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:EdgeObjectOffset" xmi:id="_eAWtAmaeEeKDVeEnBfxn4A" id="stereotypeEdgeObject"/>
+          </contained>
+          <contained xsi:type="di:GraphEdge" xmi:id="_eAWtBGaeEeKDVeEnBfxn4A" anchor="_eAWtA2aeEeKDVeEnBfxn4A _d_d8MWaeEeKDVeEnBfxn4A">
+            <property xmi:id="_eLqlIWaeEeKDVeEnBfxn4A" key="router" value="Automatic"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eAWtBWaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_clEawGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:EdgeObjectOffset" xmi:id="_eAWtBmaeEeKDVeEnBfxn4A" id="stereotypeEdgeObject"/>
+          </contained>
+          <contained xsi:type="di:GraphEdge" xmi:id="_eAWtCGaeEeKDVeEnBfxn4A" anchor="_eAWtB2aeEeKDVeEnBfxn4A _d_d8MWaeEeKDVeEnBfxn4A">
+            <property xmi:id="_eLqlImaeEeKDVeEnBfxn4A" key="router" value="Automatic"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eAWtCWaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cmJ_4GaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:EdgeObjectOffset" xmi:id="_eAWtCmaeEeKDVeEnBfxn4A" id="stereotypeEdgeObject"/>
+          </contained>
+          <contained xsi:type="di:GraphEdge" xmi:id="_eAgeAWaeEeKDVeEnBfxn4A" anchor="_eAgeAGaeEeKDVeEnBfxn4A _d_d8MWaeEeKDVeEnBfxn4A">
+            <property xmi:id="_eLqlI2aeEeKDVeEnBfxn4A" key="router" value="Automatic"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eAgeAmaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cmPfcGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:EdgeObjectOffset" xmi:id="_eAgeA2aeEeKDVeEnBfxn4A" id="stereotypeEdgeObject"/>
+          </contained>
+          <contained xsi:type="di:GraphEdge" xmi:id="_eAgeBWaeEeKDVeEnBfxn4A" anchor="_eAgeBGaeEeKDVeEnBfxn4A _d_d8MWaeEeKDVeEnBfxn4A">
+            <property xmi:id="_eLqlJGaeEeKDVeEnBfxn4A" key="router" value="Automatic"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eAgeBmaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cmkPkGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:EdgeObjectOffset" xmi:id="_eAgeB2aeEeKDVeEnBfxn4A" id="stereotypeEdgeObject"/>
+          </contained>
+          <contained xsi:type="di:GraphEdge" xmi:id="_eAqPAWaeEeKDVeEnBfxn4A" anchor="_eAqPAGaeEeKDVeEnBfxn4A _d_d8MWaeEeKDVeEnBfxn4A">
+            <property xmi:id="_eLqlJWaeEeKDVeEnBfxn4A" key="router" value="Automatic"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eAqPAmaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_coTU8GaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:EdgeObjectOffset" xmi:id="_eAqPA2aeEeKDVeEnBfxn4A" id="stereotypeEdgeObject"/>
+          </contained>
+          <contained xsi:type="di:GraphEdge" xmi:id="_eAqPBWaeEeKDVeEnBfxn4A" anchor="_eAqPBGaeEeKDVeEnBfxn4A _d_d8MWaeEeKDVeEnBfxn4A">
+            <property xmi:id="_eLqlJmaeEeKDVeEnBfxn4A" key="router" value="Automatic"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eAqPBmaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cpbWUGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:EdgeObjectOffset" xmi:id="_eAqPB2aeEeKDVeEnBfxn4A" id="stereotypeEdgeObject"/>
+          </contained>
+          <contained xsi:type="di:GraphEdge" xmi:id="_eAzY8GaeEeKDVeEnBfxn4A" anchor="_eAqPCGaeEeKDVeEnBfxn4A _d_d8MWaeEeKDVeEnBfxn4A">
+            <property xmi:id="_eLqlJ2aeEeKDVeEnBfxn4A" key="router" value="Automatic"/>
+            <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eAzY8WaeEeKDVeEnBfxn4A" presentation="default">
+              <element href="beliefcollection.uml#_cpj5MGaeEeKDVeEnBfxn4A"/>
+            </semanticModel>
+            <contained xsi:type="di:EdgeObjectOffset" xmi:id="_eAzY8maeEeKDVeEnBfxn4A" id="stereotypeEdgeObject"/>
+          </contained>
+        </contained>
+      </contained>
+    </contained>
+  </diagrams>
+</diagrams:Diagrams>

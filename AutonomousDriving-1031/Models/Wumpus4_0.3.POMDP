@@ -1,0 +1,389 @@
+# Wummpus size 4 noise 0.3
+values: reward
+discount: 0.95
+states: s_0_0_DD s_0_1_DD s_0_2_DD s_0_3_DD s_1_0_DD s_1_1_DD s_1_2_DD s_1_3_DD s_2_0_DD s_2_1_DD s_2_2_DD s_2_3_DD s_3_0_DD s_3_1_DD s_3_2_DD s_3_3_DD s_0_0_DU s_0_1_DU s_0_2_DU s_0_3_DU s_1_0_DU s_1_1_DU s_1_2_DU s_1_3_DU s_2_0_DU s_2_1_DU s_2_2_DU s_2_3_DU s_3_0_DU s_3_1_DU s_3_2_DU s_3_3_DU s_0_0_UD s_0_1_UD s_0_2_UD s_0_3_UD s_1_0_UD s_1_1_UD s_1_2_UD s_1_3_UD s_2_0_UD s_2_1_UD s_2_2_UD s_2_3_UD s_3_0_UD s_3_1_UD s_3_2_UD s_3_3_UD s_0_0_UU s_0_1_UU s_0_2_UU s_0_3_UU s_1_0_UU s_1_1_UU s_1_2_UU s_1_3_UU s_2_0_UU s_2_1_UU s_2_2_UU s_2_3_UU s_3_0_UU s_3_1_UU s_3_2_UU s_3_3_UU
+actions: up down left right
+observations: noise quiet
+E: s_3_3_DD s_3_3_DU s_3_3_UD s_3_3_UU
+start: 0.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+T: left : s_0_0_DD : s_0_0_DD 1.0
+T: right : s_0_0_DD : s_1_0_DD 1.0
+T: up : s_0_0_DD : s_0_1_DD 1.0
+T: down : s_0_0_DD : s_0_0_DD 1.0
+T: left : s_0_1_DD : s_0_1_DD 1.0
+T: right : s_0_1_DD : s_1_1_DD 1.0
+T: up : s_0_1_DD : s_0_2_DD 1.0
+T: down : s_0_1_DD : s_0_0_DD 1.0
+T: left : s_0_2_DD : s_0_2_DD 1.0
+T: right : s_0_2_DD : s_1_2_DD 1.0
+T: up : s_0_2_DD : s_0_3_DD 1.0
+T: down : s_0_2_DD : s_0_1_DD 1.0
+T: left : s_0_3_DD : s_0_3_DD 1.0
+T: right : s_0_3_DD : s_1_3_DD 1.0
+T: up : s_0_3_DD : s_0_3_DD 1.0
+T: down : s_0_3_DD : s_0_2_DD 1.0
+T: left : s_1_0_DD : s_0_0_DD 1.0
+T: right : s_1_0_DD : s_2_0_DD 1.0
+T: up : s_1_0_DD : s_1_1_DD 1.0
+T: down : s_1_0_DD : s_1_0_DD 1.0
+T: left : s_1_1_DD : s_0_1_DD 1.0
+T: right : s_1_1_DD : s_2_1_DD 1.0
+T: up : s_1_1_DD : s_1_2_DD 1.0
+T: down : s_1_1_DD : s_1_0_DD 1.0
+T: left : s_1_2_DD : s_0_2_DD 1.0
+T: right : s_1_2_DD : s_2_2_DD 1.0
+T: up : s_1_2_DD : s_1_3_DD 1.0
+T: down : s_1_2_DD : s_1_1_DD 1.0
+T: left : s_1_3_DD : s_0_3_DD 1.0
+T: right : s_1_3_DD : s_2_3_DD 1.0
+T: up : s_1_3_DD : s_1_3_DD 1.0
+T: down : s_1_3_DD : s_1_2_DD 1.0
+T: left : s_2_0_DD : s_1_0_DD 1.0
+T: right : s_2_0_DD : s_3_0_DD 1.0
+T: up : s_2_0_DD : s_2_1_DD 1.0
+T: down : s_2_0_DD : s_2_0_DD 1.0
+T: left : s_2_1_DD : s_1_1_DD 1.0
+T: right : s_2_1_DD : s_3_1_DD 1.0
+T: up : s_2_1_DD : s_2_2_DD 1.0
+T: down : s_2_1_DD : s_2_0_DD 1.0
+T: left : s_2_2_DD : s_1_2_DD 1.0
+T: right : s_2_2_DD : s_3_2_DD 1.0
+T: up : s_2_2_DD : s_2_3_DD 1.0
+T: down : s_2_2_DD : s_2_1_DD 1.0
+T: left : s_2_3_DD : s_1_3_DD 1.0
+T: right : s_2_3_DD : s_3_3_DD 1.0
+T: up : s_2_3_DD : s_2_3_DD 1.0
+T: down : s_2_3_DD : s_2_2_DD 1.0
+T: left : s_3_0_DD : s_2_0_DD 1.0
+T: right : s_3_0_DD : s_3_0_DD 1.0
+T: up : s_3_0_DD : s_3_1_DD 1.0
+T: down : s_3_0_DD : s_3_0_DD 1.0
+T: left : s_3_1_DD : s_2_1_DD 1.0
+T: right : s_3_1_DD : s_3_1_DD 1.0
+T: up : s_3_1_DD : s_3_2_DD 1.0
+T: down : s_3_1_DD : s_3_0_DD 1.0
+T: left : s_3_2_DD : s_2_2_DD 1.0
+T: right : s_3_2_DD : s_3_2_DD 1.0
+T: up : s_3_2_DD : s_3_3_DD 1.0
+T: down : s_3_2_DD : s_3_1_DD 1.0
+T: left : s_3_3_DD : s_3_3_DD 1.0
+T: right : s_3_3_DD : s_3_3_DD 1.0
+T: up : s_3_3_DD : s_3_3_DD 1.0
+T: down : s_3_3_DD : s_3_3_DD 1.0
+T: left : s_0_0_DU : s_0_0_DU 1.0
+T: right : s_0_0_DU : s_1_0_DU 1.0
+T: up : s_0_0_DU : s_0_1_DU 1.0
+T: down : s_0_0_DU : s_0_0_DU 1.0
+T: left : s_0_1_DU : s_0_1_DU 1.0
+T: right : s_0_1_DU : s_1_1_DU 1.0
+T: up : s_0_1_DU : s_0_2_DU 1.0
+T: down : s_0_1_DU : s_0_0_DU 1.0
+T: left : s_0_2_DU : s_0_2_DU 1.0
+T: right : s_0_2_DU : s_1_2_DU 1.0
+T: up : s_0_2_DU : s_0_3_DU 1.0
+T: down : s_0_2_DU : s_0_1_DU 1.0
+T: left : s_0_3_DU : s_0_3_DU 1.0
+T: right : s_0_3_DU : s_1_3_DU 1.0
+T: up : s_0_3_DU : s_0_3_DU 1.0
+T: down : s_0_3_DU : s_0_2_DU 1.0
+T: left : s_1_0_DU : s_0_0_DU 1.0
+T: right : s_1_0_DU : s_2_0_DU 1.0
+T: up : s_1_0_DU : s_1_1_DU 1.0
+T: down : s_1_0_DU : s_1_0_DU 1.0
+T: left : s_1_1_DU : s_0_1_DU 1.0
+T: right : s_1_1_DU : s_2_1_DU 1.0
+T: up : s_1_1_DU : s_1_2_DU 1.0
+T: down : s_1_1_DU : s_1_0_DU 1.0
+T: left : s_1_2_DU : s_0_2_DU 1.0
+T: right : s_1_2_DU : s_2_2_DU 1.0
+T: up : s_1_2_DU : s_1_3_DU 1.0
+T: down : s_1_2_DU : s_1_1_DU 1.0
+T: left : s_1_3_DU : s_0_3_DU 1.0
+T: right : s_1_3_DU : s_2_3_DU 1.0
+T: up : s_1_3_DU : s_1_3_DU 1.0
+T: down : s_1_3_DU : s_1_2_DU 1.0
+T: left : s_2_0_DU : s_1_0_DU 1.0
+T: right : s_2_0_DU : s_3_0_DU 1.0
+T: up : s_2_0_DU : s_2_1_DU 1.0
+T: down : s_2_0_DU : s_2_0_DU 1.0
+T: left : s_2_1_DU : s_1_1_DU 1.0
+T: right : s_2_1_DU : s_3_1_DU 1.0
+T: up : s_2_1_DU : s_2_2_DU 1.0
+T: down : s_2_1_DU : s_2_0_DU 1.0
+T: left : s_2_2_DU : s_1_2_DU 1.0
+T: right : s_2_2_DU : s_3_2_DU 1.0
+T: up : s_2_2_DU : s_2_3_DU 1.0
+T: down : s_2_2_DU : s_2_1_DU 1.0
+T: left : s_2_3_DU : s_1_3_DU 1.0
+T: right : s_2_3_DU : s_3_3_DU 1.0
+T: up : s_2_3_DU : s_2_3_DU 1.0
+T: down : s_2_3_DU : s_2_2_DU 1.0
+T: left : s_3_0_DU : s_2_0_DU 1.0
+T: right : s_3_0_DU : s_3_0_DU 1.0
+T: up : s_3_0_DU : s_3_1_DU 1.0
+T: down : s_3_0_DU : s_3_0_DU 1.0
+T: left : s_3_1_DU : s_2_1_DU 1.0
+T: right : s_3_1_DU : s_3_1_DU 1.0
+T: up : s_3_1_DU : s_3_2_DU 1.0
+T: down : s_3_1_DU : s_3_0_DU 1.0
+T: left : s_3_2_DU : s_2_2_DU 1.0
+T: right : s_3_2_DU : s_3_2_DU 1.0
+T: up : s_3_2_DU : s_3_3_DU 1.0
+T: down : s_3_2_DU : s_3_1_DU 1.0
+T: left : s_3_3_DU : s_3_3_DU 1.0
+T: right : s_3_3_DU : s_3_3_DU 1.0
+T: up : s_3_3_DU : s_3_3_DU 1.0
+T: down : s_3_3_DU : s_3_3_DU 1.0
+T: left : s_0_0_UD : s_0_0_UD 1.0
+T: right : s_0_0_UD : s_1_0_UD 1.0
+T: up : s_0_0_UD : s_0_1_UD 1.0
+T: down : s_0_0_UD : s_0_0_UD 1.0
+T: left : s_0_1_UD : s_0_1_UD 1.0
+T: right : s_0_1_UD : s_1_1_UD 1.0
+T: up : s_0_1_UD : s_0_2_UD 1.0
+T: down : s_0_1_UD : s_0_0_UD 1.0
+T: left : s_0_2_UD : s_0_2_UD 1.0
+T: right : s_0_2_UD : s_1_2_UD 1.0
+T: up : s_0_2_UD : s_0_3_UD 1.0
+T: down : s_0_2_UD : s_0_1_UD 1.0
+T: left : s_0_3_UD : s_0_3_UD 1.0
+T: right : s_0_3_UD : s_1_3_UD 1.0
+T: up : s_0_3_UD : s_0_3_UD 1.0
+T: down : s_0_3_UD : s_0_2_UD 1.0
+T: left : s_1_0_UD : s_0_0_UD 1.0
+T: right : s_1_0_UD : s_2_0_UD 1.0
+T: up : s_1_0_UD : s_1_1_UD 1.0
+T: down : s_1_0_UD : s_1_0_UD 1.0
+T: left : s_1_1_UD : s_0_1_UD 1.0
+T: right : s_1_1_UD : s_2_1_UD 1.0
+T: up : s_1_1_UD : s_1_2_UD 1.0
+T: down : s_1_1_UD : s_1_0_UD 1.0
+T: left : s_1_2_UD : s_0_2_UD 1.0
+T: right : s_1_2_UD : s_2_2_UD 1.0
+T: up : s_1_2_UD : s_1_3_UD 1.0
+T: down : s_1_2_UD : s_1_1_UD 1.0
+T: left : s_1_3_UD : s_0_3_UD 1.0
+T: right : s_1_3_UD : s_2_3_UD 1.0
+T: up : s_1_3_UD : s_1_3_UD 1.0
+T: down : s_1_3_UD : s_1_2_UD 1.0
+T: left : s_2_0_UD : s_1_0_UD 1.0
+T: right : s_2_0_UD : s_3_0_UD 1.0
+T: up : s_2_0_UD : s_2_1_UD 1.0
+T: down : s_2_0_UD : s_2_0_UD 1.0
+T: left : s_2_1_UD : s_1_1_UD 1.0
+T: right : s_2_1_UD : s_3_1_UD 1.0
+T: up : s_2_1_UD : s_2_2_UD 1.0
+T: down : s_2_1_UD : s_2_0_UD 1.0
+T: left : s_2_2_UD : s_1_2_UD 1.0
+T: right : s_2_2_UD : s_3_2_UD 1.0
+T: up : s_2_2_UD : s_2_3_UD 1.0
+T: down : s_2_2_UD : s_2_1_UD 1.0
+T: left : s_2_3_UD : s_1_3_UD 1.0
+T: right : s_2_3_UD : s_3_3_UD 1.0
+T: up : s_2_3_UD : s_2_3_UD 1.0
+T: down : s_2_3_UD : s_2_2_UD 1.0
+T: left : s_3_0_UD : s_2_0_UD 1.0
+T: right : s_3_0_UD : s_3_0_UD 1.0
+T: up : s_3_0_UD : s_3_1_UD 1.0
+T: down : s_3_0_UD : s_3_0_UD 1.0
+T: left : s_3_1_UD : s_2_1_UD 1.0
+T: right : s_3_1_UD : s_3_1_UD 1.0
+T: up : s_3_1_UD : s_3_2_UD 1.0
+T: down : s_3_1_UD : s_3_0_UD 1.0
+T: left : s_3_2_UD : s_2_2_UD 1.0
+T: right : s_3_2_UD : s_3_2_UD 1.0
+T: up : s_3_2_UD : s_3_3_UD 1.0
+T: down : s_3_2_UD : s_3_1_UD 1.0
+T: left : s_3_3_UD : s_3_3_UD 1.0
+T: right : s_3_3_UD : s_3_3_UD 1.0
+T: up : s_3_3_UD : s_3_3_UD 1.0
+T: down : s_3_3_UD : s_3_3_UD 1.0
+T: left : s_0_0_UU : s_0_0_UU 1.0
+T: right : s_0_0_UU : s_1_0_UU 1.0
+T: up : s_0_0_UU : s_0_1_UU 1.0
+T: down : s_0_0_UU : s_0_0_UU 1.0
+T: left : s_0_1_UU : s_0_1_UU 1.0
+T: right : s_0_1_UU : s_1_1_UU 1.0
+T: up : s_0_1_UU : s_0_2_UU 1.0
+T: down : s_0_1_UU : s_0_0_UU 1.0
+T: left : s_0_2_UU : s_0_2_UU 1.0
+T: right : s_0_2_UU : s_1_2_UU 1.0
+T: up : s_0_2_UU : s_0_3_UU 1.0
+T: down : s_0_2_UU : s_0_1_UU 1.0
+T: left : s_0_3_UU : s_0_3_UU 1.0
+T: right : s_0_3_UU : s_1_3_UU 1.0
+T: up : s_0_3_UU : s_0_3_UU 1.0
+T: down : s_0_3_UU : s_0_2_UU 1.0
+T: left : s_1_0_UU : s_0_0_UU 1.0
+T: right : s_1_0_UU : s_2_0_UU 1.0
+T: up : s_1_0_UU : s_1_1_UU 1.0
+T: down : s_1_0_UU : s_1_0_UU 1.0
+T: left : s_1_1_UU : s_0_1_UU 1.0
+T: right : s_1_1_UU : s_2_1_UU 1.0
+T: up : s_1_1_UU : s_1_2_UU 1.0
+T: down : s_1_1_UU : s_1_0_UU 1.0
+T: left : s_1_2_UU : s_0_2_UU 1.0
+T: right : s_1_2_UU : s_2_2_UU 1.0
+T: up : s_1_2_UU : s_1_3_UU 1.0
+T: down : s_1_2_UU : s_1_1_UU 1.0
+T: left : s_1_3_UU : s_0_3_UU 1.0
+T: right : s_1_3_UU : s_2_3_UU 1.0
+T: up : s_1_3_UU : s_1_3_UU 1.0
+T: down : s_1_3_UU : s_1_2_UU 1.0
+T: left : s_2_0_UU : s_1_0_UU 1.0
+T: right : s_2_0_UU : s_3_0_UU 1.0
+T: up : s_2_0_UU : s_2_1_UU 1.0
+T: down : s_2_0_UU : s_2_0_UU 1.0
+T: left : s_2_1_UU : s_1_1_UU 1.0
+T: right : s_2_1_UU : s_3_1_UU 1.0
+T: up : s_2_1_UU : s_2_2_UU 1.0
+T: down : s_2_1_UU : s_2_0_UU 1.0
+T: left : s_2_2_UU : s_1_2_UU 1.0
+T: right : s_2_2_UU : s_3_2_UU 1.0
+T: up : s_2_2_UU : s_2_3_UU 1.0
+T: down : s_2_2_UU : s_2_1_UU 1.0
+T: left : s_2_3_UU : s_1_3_UU 1.0
+T: right : s_2_3_UU : s_3_3_UU 1.0
+T: up : s_2_3_UU : s_2_3_UU 1.0
+T: down : s_2_3_UU : s_2_2_UU 1.0
+T: left : s_3_0_UU : s_2_0_UU 1.0
+T: right : s_3_0_UU : s_3_0_UU 1.0
+T: up : s_3_0_UU : s_3_1_UU 1.0
+T: down : s_3_0_UU : s_3_0_UU 1.0
+T: left : s_3_1_UU : s_2_1_UU 1.0
+T: right : s_3_1_UU : s_3_1_UU 1.0
+T: up : s_3_1_UU : s_3_2_UU 1.0
+T: down : s_3_1_UU : s_3_0_UU 1.0
+T: left : s_3_2_UU : s_2_2_UU 1.0
+T: right : s_3_2_UU : s_3_2_UU 1.0
+T: up : s_3_2_UU : s_3_3_UU 1.0
+T: down : s_3_2_UU : s_3_1_UU 1.0
+T: left : s_3_3_UU : s_3_3_UU 1.0
+T: right : s_3_3_UU : s_3_3_UU 1.0
+T: up : s_3_3_UU : s_3_3_UU 1.0
+T: down : s_3_3_UU : s_3_3_UU 1.0
+
+O: * : s_0_0_DD : quiet 1.0
+O: * : s_0_1_DD : quiet 1.0
+O: * : s_0_2_DD : quiet 1.0
+O: * : s_0_3_DD : quiet 1.0
+O: * : s_1_0_DD : quiet 1.0
+O: * : s_1_1_DD : noise 0.7
+O: * : s_1_1_DD : quiet 0.3
+O: * : s_1_2_DD : quiet 1.0
+O: * : s_1_3_DD : quiet 1.0
+O: * : s_2_0_DD : noise 0.7
+O: * : s_2_0_DD : quiet 0.3
+O: * : s_2_1_DD : quiet 1.0
+O: * : s_2_2_DD : noise 0.7
+O: * : s_2_2_DD : quiet 0.3
+O: * : s_2_3_DD : quiet 1.0
+O: * : s_3_0_DD : quiet 1.0
+O: * : s_3_1_DD : noise 0.7
+O: * : s_3_1_DD : quiet 0.3
+O: * : s_3_2_DD : quiet 1.0
+O: * : s_3_3_DD : noise 0.7
+O: * : s_3_3_DD : quiet 0.3
+O: * : s_0_0_DU : quiet 1.0
+O: * : s_0_1_DU : quiet 1.0
+O: * : s_0_2_DU : quiet 1.0
+O: * : s_0_3_DU : quiet 1.0
+O: * : s_1_0_DU : quiet 1.0
+O: * : s_1_1_DU : noise 0.7
+O: * : s_1_1_DU : quiet 0.3
+O: * : s_1_2_DU : quiet 1.0
+O: * : s_1_3_DU : noise 0.7
+O: * : s_1_3_DU : quiet 0.3
+O: * : s_2_0_DU : noise 0.7
+O: * : s_2_0_DU : quiet 0.3
+O: * : s_2_1_DU : quiet 1.0
+O: * : s_2_2_DU : noise 0.7
+O: * : s_2_2_DU : quiet 0.3
+O: * : s_2_3_DU : quiet 1.0
+O: * : s_3_0_DU : quiet 1.0
+O: * : s_3_1_DU : noise 0.7
+O: * : s_3_1_DU : quiet 0.3
+O: * : s_3_2_DU : quiet 1.0
+O: * : s_3_3_DU : noise 0.7
+O: * : s_3_3_DU : quiet 0.3
+O: * : s_0_0_UD : quiet 1.0
+O: * : s_0_1_UD : quiet 1.0
+O: * : s_0_2_UD : noise 0.7
+O: * : s_0_2_UD : quiet 0.3
+O: * : s_0_3_UD : quiet 1.0
+O: * : s_1_0_UD : quiet 1.0
+O: * : s_1_1_UD : noise 0.7
+O: * : s_1_1_UD : quiet 0.3
+O: * : s_1_2_UD : quiet 1.0
+O: * : s_1_3_UD : noise 0.7
+O: * : s_1_3_UD : quiet 0.3
+O: * : s_2_0_UD : quiet 1.0
+O: * : s_2_1_UD : quiet 1.0
+O: * : s_2_2_UD : noise 0.7
+O: * : s_2_2_UD : quiet 0.3
+O: * : s_2_3_UD : quiet 1.0
+O: * : s_3_0_UD : quiet 1.0
+O: * : s_3_1_UD : noise 0.7
+O: * : s_3_1_UD : quiet 0.3
+O: * : s_3_2_UD : quiet 1.0
+O: * : s_3_3_UD : noise 0.7
+O: * : s_3_3_UD : quiet 0.3
+O: * : s_0_0_UU : quiet 1.0
+O: * : s_0_1_UU : quiet 1.0
+O: * : s_0_2_UU : noise 0.7
+O: * : s_0_2_UU : quiet 0.3
+O: * : s_0_3_UU : quiet 1.0
+O: * : s_1_0_UU : quiet 1.0
+O: * : s_1_1_UU : noise 0.7
+O: * : s_1_1_UU : quiet 0.3
+O: * : s_1_2_UU : quiet 1.0
+O: * : s_1_3_UU : noise 0.7
+O: * : s_1_3_UU : quiet 0.3
+O: * : s_2_0_UU : quiet 1.0
+O: * : s_2_1_UU : quiet 1.0
+O: * : s_2_2_UU : noise 0.7
+O: * : s_2_2_UU : quiet 0.3
+O: * : s_2_3_UU : quiet 1.0
+O: * : s_3_0_UU : quiet 1.0
+O: * : s_3_1_UU : quiet 1.0
+O: * : s_3_2_UU : quiet 1.0
+O: * : s_3_3_UU : noise 0.7
+O: * : s_3_3_UU : quiet 0.3
+
+R: right : s_1_1_DD : * : * -100
+R: up : s_2_0_DD : * : * -100
+R: right : s_2_2_DD : * : * -100
+R: down : s_2_2_DD : * : * -100
+R: right : s_2_3_DD : * : * 10.0
+R: up : s_3_1_DD : * : * -100
+R: left : s_3_1_DD : * : * -100
+R: up : s_3_2_DD : * : * 10.0
+R: right : s_3_2_DD : * : * -100
+R: right : s_1_1_DU : * : * -100
+R: right : s_1_3_DU : * : * -100
+R: up : s_2_0_DU : * : * -100
+R: up : s_2_2_DU : * : * -100
+R: down : s_2_2_DU : * : * -100
+R: up : s_2_3_DU : * : * -100
+R: right : s_2_3_DU : * : * 10.0
+R: left : s_3_1_DU : * : * -100
+R: up : s_3_2_DU : * : * 10.0
+R: right : s_0_2_UD : * : * -100
+R: up : s_1_1_UD : * : * -100
+R: down : s_1_3_UD : * : * -100
+R: right : s_2_2_UD : * : * -100
+R: left : s_2_2_UD : * : * -100
+R: right : s_2_3_UD : * : * 10.0
+R: up : s_3_1_UD : * : * -100
+R: up : s_3_2_UD : * : * 10.0
+R: right : s_3_2_UD : * : * -100
+R: right : s_0_2_UU : * : * -100
+R: up : s_1_1_UU : * : * -100
+R: right : s_1_3_UU : * : * -100
+R: down : s_1_3_UU : * : * -100
+R: up : s_2_2_UU : * : * -100
+R: left : s_2_2_UU : * : * -100
+R: up : s_2_3_UU : * : * -100
+R: right : s_2_3_UU : * : * 10.0
+R: up : s_3_2_UU : * : * 10.0
