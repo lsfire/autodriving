@@ -47,6 +47,7 @@ public class Simulator {
 		pedestrianPosRecord = new ArrayList<>();
 		for (int i = 0; i < pedestrianList.size(); i++) {
 			pedestrianPosRecord.add(new ArrayList<Vector<Integer>>());
+			
 		}
 		
 		
