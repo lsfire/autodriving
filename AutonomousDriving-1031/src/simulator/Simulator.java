@@ -51,6 +51,7 @@ public class Simulator {
 		}
 		
 		
+		
 		for (int i = 0; i < pedestrianPosRecord.size(); i++) {
 			pedestrianPosRecord.get(i).add(pedestrianList.get(i).getPedestrianPos());
 		}
