@@ -25,7 +25,7 @@ public class AutoDrivingAnimation {
 	private JPanel vehiclePanel;
 	private JPanel vehicleGoalPanel;
 	private JPanel[] pedestrianPanels;
-	//added by liushoa
+	//added by liushao
 	private ArrayList<PedestrianModel> pedestrianModels;
 	private VehicleModel vehicleModel;
 	private MapSetter mapSetter;
@@ -80,8 +80,8 @@ public class AutoDrivingAnimation {
 
 	//创建汽车的JPanel
 	private void createVehiclePanel() {
-		vehiclePanel = new JPanel();
-		vehiclePanel.setBackground(Color.blue);
+		vehiclePanel = new VehiclePanel();
+		//vehiclePanel.setBackground(Color.blue);
 		vehicleGoalPanel = new JPanel();
 		vehicleGoalPanel.setBackground(new Color(255, 0, 255));
 		
@@ -111,7 +111,8 @@ public class AutoDrivingAnimation {
 			staticObstaclePanels[i].setBounds(staticObstacleList.get(i).get(0) - 5,
 					staticObstacleList.get(i).get(1) - 5, 11, 11);
 		}
-		vehiclePanel.setBounds(vehicleModel.getVehiclePos().get(0) - 2, vehicleModel.getVehiclePos().get(1) - 2, 5, 5);
+		vehiclePanel.setBounds(vehicleModel.getVehiclePos().get(0) - 2, vehicleModel.getVehiclePos().get(1) - 2, 40, 40);
+		
 		vehicleGoalPanel.setBounds(vehicleModel.getVehicleGoal().get(0) - 2, vehicleModel.getVehicleGoal().get(1) - 2, 5, 5);
 		for (int i = 0; i < pedestrianPanels.length; i++) {
 			pedestrianPanels[i].setBounds(pedestrianModels.get(i).getPedestrianPos().get(0) - 5,
@@ -186,7 +187,7 @@ public class AutoDrivingAnimation {
 				int vehiclePosY = vehicleModel.getVehiclePos().get(1);
 				vehiclePanel.setLocation(vehiclePosX, vehiclePosY);
 			}
-			
+			System.out.println("get to the destination!");
 		}
 	}
 	
