@@ -6,6 +6,7 @@ import java.util.Vector;
 import model.GoalModel;
 import model.PedestrianModel;
 import model.VehicleModel;
+import pomdp.algorithms.backup.NewestPointsBackup;
 
 public class MapSetter {
 	private ArrayList<PedestrianModel> pedestrianList;
@@ -113,15 +114,20 @@ public class MapSetter {
 		staticObstacleList = new ArrayList<>();
 
 		Vector<Integer> obstacleOne = new Vector<>();
-		obstacleOne.add(520);
+		obstacleOne.add(600);
 		obstacleOne.add(320);
 
 		Vector<Integer> obstacleTwo = new Vector<>();
-		obstacleTwo.add(800);
 		obstacleTwo.add(400);
+		obstacleTwo.add(300);
+		
+		Vector<Integer> obstacleThree = new Vector<>();
+		obstacleThree.add(500);
+		obstacleThree.add(300);
 
 		staticObstacleList.add(obstacleOne);
 		staticObstacleList.add(obstacleTwo);
+		staticObstacleList.add(obstacleThree);
 	}
 
 	public ArrayList<PedestrianModel> getPedestrianList() {

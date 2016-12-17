@@ -8,6 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+import model.GoalModel;
 import model.PedestrianModel;
 import model.UpdateModel;
 import model.VehicleModel;
@@ -30,7 +31,7 @@ public class AutoDrivingAnimation {
 	private VehicleModel vehicleModel;
 	private MapSetter mapSetter;
 	private UpdateModel updateModel;
-
+	private JPanel[] goalPanels;
 	public AutoDrivingAnimation(ArrayList<ArrayList<Vector<Integer>>> pedestrianPosRecord,
 			ArrayList<Vector<Integer>> vehiclePath, ArrayList<Vector<Integer>> staticObstacleList,
 			Vector<Integer> vehicleGoal) {
@@ -60,6 +61,7 @@ public class AutoDrivingAnimation {
 		createStaticObstaclePanel();
 		createVehiclePanel();
 		createPedestrianPanel();
+		createGoalPanel();
 		layComponent();
 		showFrame();
 		Thread animation = new Thread(new Animation2());
@@ -77,6 +79,21 @@ public class AutoDrivingAnimation {
 			// staticObstacleLabels[i].setForeground(Color.yellow);
 		}
 	}
+	
+	private void createGoalPanel(){
+		int goalNum = 0;
+		for(PedestrianModel pModel:pedestrianModels){
+			for(int i  = 0 ;i < pModel.getPedestrianGoalList().size();i++){
+				goalNum++;
+			}
+		}
+		
+		goalPanels = new JPanel[goalNum];
+		for(int i = 0;i < goalPanels.length;i++){
+			goalPanels[i] = new JPanel();
+			goalPanels[i].setBackground(Color.BLUE);
+		}
+	}
 
 	//创建汽车的JPanel
 	private void createVehiclePanel() {
@@ -89,10 +106,10 @@ public class AutoDrivingAnimation {
 
 	//创建行人的JPanel
 	private void createPedestrianPanel() {
-		pedestrianPanels = new JPanel[pedestrianModels.size()];
+		pedestrianPanels = new PedestrianPanel[pedestrianModels.size()];
 		for (int i = 0; i < pedestrianPanels.length; i++) {
-			pedestrianPanels[i] = new JPanel();
-			pedestrianPanels[i].setBackground(Color.red);
+			pedestrianPanels[i] = new PedestrianPanel();
+			//pedestrianPanels[i].setBackground(Color.red);
 		}
 	}
 
@@ -106,6 +123,10 @@ public class AutoDrivingAnimation {
 		for (int i = 0; i < pedestrianPanels.length; i++) {
 			mapPanel.add(pedestrianPanels[i]);
 		}
+		
+		for(int i = 0;i < goalPanels.length;i++){
+			mapPanel.add(goalPanels[i]);
+		}
 		mapPanel.setLayout(null);
 		for (int i = 0; i < staticObstaclePanels.length; i++) {
 			staticObstaclePanels[i].setBounds(staticObstacleList.get(i).get(0) - 5,
@@ -116,8 +137,16 @@ public class AutoDrivingAnimation {
 		vehicleGoalPanel.setBounds(vehicleModel.getVehicleGoal().get(0) - 2, vehicleModel.getVehicleGoal().get(1) - 2, 5, 5);
 		for (int i = 0; i < pedestrianPanels.length; i++) {
 			pedestrianPanels[i].setBounds(pedestrianModels.get(i).getPedestrianPos().get(0) - 5,
-					pedestrianModels.get(i).getPedestrianPos().get(1) - 5, 5, 5);
+					pedestrianModels.get(i).getPedestrianPos().get(1) - 5, 25, 40);
 		}
+		int count = 0;
+		for(PedestrianModel pModel : pedestrianModels){
+			for(GoalModel goalModel:pModel.getPedestrianGoalList()){
+				goalPanels[count].setBounds(goalModel.getGoalPos().get(0), goalModel.getGoalPos().get(0), 5, 5);
+				count++;
+			}
+		}
+		
 
 		mapFrame.getContentPane().add(mapPanel);
 		mapFrame.getContentPane().setLayout(null);
